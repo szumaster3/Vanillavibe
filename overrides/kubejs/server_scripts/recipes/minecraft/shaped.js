@@ -1,9 +1,3 @@
-
-settings.logAddedRecipes = false
-settings.logRemovedRecipes = false
-settings.logSkippedRecipes = false
-settings.logErroringRecipes = true
-
 //╔════════════════════════════════════════╗
 //║        Copyright © 2021 CSS            ║
 //╚════════════════════════════════════════╝
