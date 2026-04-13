@@ -1,0 +1,246 @@
+{
+	id: "5BA4732924B435D5"
+	group: "67AEA43179997299"
+	order_index: 1
+	filename: "querry"
+	title: "&fQuarry"
+	icon: "ftbquests:barrier"
+	default_quest_shape: "hexagon"
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			title: "&fQuarry"
+			icon: "quarrymod:quarry"
+			x: 0.0d
+			y: -6.0d
+			subtitle: "Grab Quarry and start mine chunks"
+			dependencies: [
+				"5EF39F38C4B1F791"
+				"1C7A9BEDFDDAD7DA"
+				"72E0129524DFFF70"
+			]
+			id: "48CA0D5169E949CD"
+			tasks: [
+				{
+					id: "2A73371DAEEFA4AA"
+					type: "item"
+					item: "techreborn:advanced_machine_frame"
+					count: 2L
+				}
+				{
+					id: "08F45726BDB37438"
+					type: "item"
+					item: "techreborn:iridium_ingot"
+				}
+				{
+					id: "3BEAC58ABB252B35"
+					type: "item"
+					item: "techreborn:steel_plate"
+					count: 2L
+				}
+				{
+					id: "5D6F3405F7774F1D"
+					type: "item"
+					item: {
+						id: "techreborn:advanced_drill"
+						Count: 1b
+						tag: {
+							energy: 0
+						}
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "4EBDF8ECD61E4DC8"
+					type: "item"
+					item: "quarrymod:quarry"
+				}
+				{
+					id: "3EC5512030D3A3A1"
+					type: "item"
+					team_reward: false
+					auto: "disabled"
+					item: "quarrymod:drill_tube"
+					count: 64
+					random_bonus: 32
+				}
+				{
+					id: "55278E478B9B7925"
+					type: "loot"
+					table_id: 3133982820876343405L
+				}
+			]
+		}
+		{
+			x: -2.0d
+			y: -1.5d
+			dependencies: ["029CB7BCA7934D44"]
+			id: "586E256E24119236"
+			tasks: [{
+				id: "19BF2E6A6E25E54D"
+				type: "item"
+				item: "quarrymod:range_extender_lvl1_upgrade"
+			}]
+			rewards: [{
+				id: "2FC9353A4F84DBDF"
+				type: "loot"
+				table_id: 3133982820876343405L
+			}]
+		}
+		{
+			x: -2.0d
+			y: -3.0d
+			dependencies: ["586E256E24119236"]
+			id: "04337A1E3B2C3373"
+			tasks: [{
+				id: "729AC3F3BCAA9C5B"
+				type: "item"
+				item: "quarrymod:range_extender_lvl2_upgrade"
+			}]
+			rewards: [{
+				id: "3438FDDC24A5CC81"
+				type: "loot"
+				table_id: 3133982820876343405L
+			}]
+		}
+		{
+			x: -2.0d
+			y: -4.5d
+			dependencies: ["04337A1E3B2C3373"]
+			id: "1C7A9BEDFDDAD7DA"
+			tasks: [{
+				id: "40F3D050A79F1759"
+				type: "item"
+				item: "quarrymod:range_extender_lvl3_upgrade"
+			}]
+			rewards: [
+				{
+					id: "268F99ADB83025EF"
+					type: "loot"
+					table_id: 3133982820876343405L
+				}
+				{
+					id: "3DF72C93752017BD"
+					type: "loot"
+					table_id: 5705109811401542117L
+				}
+			]
+		}
+		{
+			x: 2.0d
+			y: -1.5d
+			dependencies: ["029CB7BCA7934D44"]
+			id: "60101BD37368102F"
+			tasks: [{
+				id: "05ECBA887CB2DECF"
+				type: "item"
+				item: "quarrymod:fortune_lvl1_upgrade"
+			}]
+			rewards: [{
+				id: "428E13FA41E33773"
+				type: "loot"
+				table_id: 3133982820876343405L
+			}]
+		}
+		{
+			x: 2.0d
+			y: -3.0d
+			dependencies: ["60101BD37368102F"]
+			id: "63A913DA8C4F4F5C"
+			tasks: [{
+				id: "40B704980839F627"
+				type: "item"
+				item: "quarrymod:fortune_lvl2_upgrade"
+			}]
+			rewards: [{
+				id: "2539357552012133"
+				type: "loot"
+				table_id: 3133982820876343405L
+			}]
+		}
+		{
+			x: 2.0d
+			y: -4.5d
+			dependencies: ["63A913DA8C4F4F5C"]
+			id: "5EF39F38C4B1F791"
+			tasks: [{
+				id: "4326A2D409B3DC06"
+				type: "item"
+				item: "quarrymod:fortune_lvl3_upgrade"
+			}]
+			rewards: [
+				{
+					id: "43F395A75DFF440E"
+					type: "loot"
+					table_id: 3133982820876343405L
+				}
+				{
+					id: "4B9BCFA56EE0CF01"
+					type: "loot"
+					table_id: 5705109811401542117L
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: -3.0d
+			dependencies: ["7ACD9DC3A0754E67"]
+			id: "72E0129524DFFF70"
+			tasks: [{
+				id: "1DDA0F3D7EB63040"
+				type: "item"
+				item: "quarrymod:silktouch_upgrade"
+			}]
+			rewards: [
+				{
+					id: "02EA6804BDC77C2A"
+					type: "loot"
+					table_id: 3133982820876343405L
+				}
+				{
+					id: "3CB9A725C4415B55"
+					type: "loot"
+					table_id: 5705109811401542117L
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: -1.5d
+			dependencies: ["029CB7BCA7934D44"]
+			id: "7ACD9DC3A0754E67"
+			tasks: [{
+				id: "7955878BA6F7FD7E"
+				type: "item"
+				item: {
+					id: "techreborn:advanced_drill"
+					Count: 1b
+					tag: {
+						energy: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "258E2FA04A47B861"
+				type: "loot"
+				table_id: 3133982820876343405L
+			}]
+		}
+		{
+			x: 0.0d
+			y: 0.0d
+			id: "029CB7BCA7934D44"
+			tasks: [{
+				id: "6F3721A45591358A"
+				type: "item"
+				item: "quarrymod:drill_tube"
+			}]
+			rewards: [{
+				id: "41366A49962F0916"
+				type: "loot"
+				table_id: 4023534927821043910L
+			}]
+		}
+	]
+}

@@ -1,0 +1,661 @@
+{
+	id: "60494AA3ECBBC95A"
+	group: "293A0E7F313C58DC"
+	order_index: 4
+	filename: "battle_tower"
+	title: "Battle Tower"
+	icon: {
+		id: "battletowers:key_chestplate"
+		Count: 1b
+		tag: {
+			Damage: 0
+		}
+	}
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: 0.0d
+			y: -0.5d
+			dependencies: ["051081EC20FFED4A"]
+			id: "4CFEB68239B407E2"
+			tasks: [{
+				id: "1E1451302852DDBE"
+				type: "item"
+				item: {
+					id: "battletowers:key_helmet"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "4ED50DD9E58E8AA3"
+				type: "loot"
+				table_id: 3133982820876343405L
+			}]
+		}
+		{
+			x: 0.0d
+			y: 0.5d
+			dependencies: ["774C650395E6760A"]
+			id: "051081EC20FFED4A"
+			tasks: [{
+				id: "105F32635B0A99CE"
+				type: "item"
+				item: {
+					id: "battletowers:key_chestplate"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "0CFF75C422FDF6AC"
+				type: "loot"
+				table_id: 3133982820876343405L
+			}]
+		}
+		{
+			x: 0.0d
+			y: 1.5d
+			dependencies: ["7F247A35F2870170"]
+			id: "774C650395E6760A"
+			tasks: [{
+				id: "37FF02BC7E5D2A2A"
+				type: "item"
+				item: {
+					id: "battletowers:key_leggings"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "4D5BF7CBA02CBF93"
+				type: "loot"
+				table_id: 3133982820876343405L
+			}]
+		}
+		{
+			x: 0.0d
+			y: 2.5d
+			dependencies: ["2591615E39951596"]
+			id: "7F247A35F2870170"
+			tasks: [{
+				id: "53564AC7DD37E1D6"
+				type: "item"
+				item: {
+					id: "battletowers:key_boots"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "2A7EFA3B85E6E1A4"
+				type: "loot"
+				table_id: 3133982820876343405L
+			}]
+		}
+		{
+			x: 0.0d
+			y: -3.0d
+			dependencies: [
+				"636AAFCFE335E685"
+				"536C7E5AD4A97782"
+				"6953CD05F5CC88CB"
+				"578163696F923C1A"
+			]
+			id: "13B2CAB558F8E7E9"
+			tasks: [{
+				id: "52B29A40BA172751"
+				type: "item"
+				item: {
+					id: "battletowers:key_sword"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "4AB597B66B784BA7"
+				type: "loot"
+				table_id: 3133982820876343405L
+			}]
+		}
+		{
+			x: -1.5d
+			y: -2.5d
+			dependencies: ["4CFEB68239B407E2"]
+			id: "578163696F923C1A"
+			tasks: [{
+				id: "4C45FCE112091650"
+				type: "item"
+				item: {
+					id: "battletowers:key_axe"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "23B3D5AA565EF688"
+				type: "loot"
+				table_id: 3133982820876343405L
+			}]
+		}
+		{
+			x: -0.5d
+			y: -1.5d
+			dependencies: ["4CFEB68239B407E2"]
+			id: "636AAFCFE335E685"
+			tasks: [{
+				id: "6C10D750D7C61174"
+				type: "item"
+				item: {
+					id: "battletowers:key_hoe"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "5399CBCD7FE256C4"
+				type: "loot"
+				table_id: 3133982820876343405L
+			}]
+		}
+		{
+			x: 0.5d
+			y: -1.5d
+			dependencies: ["4CFEB68239B407E2"]
+			id: "536C7E5AD4A97782"
+			tasks: [{
+				id: "5D02B6AEDA5862C2"
+				type: "item"
+				item: {
+					id: "battletowers:key_pickaxe"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "5EBC914C7D552641"
+				type: "loot"
+				table_id: 3133982820876343405L
+			}]
+		}
+		{
+			x: 1.5d
+			y: -2.5d
+			dependencies: ["4CFEB68239B407E2"]
+			id: "6953CD05F5CC88CB"
+			tasks: [{
+				id: "3427CDD9B8B8A1A6"
+				type: "item"
+				item: {
+					id: "battletowers:key_shovel"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "5765149DE35A3217"
+				type: "loot"
+				table_id: 3133982820876343405L
+			}]
+		}
+		{
+			x: 0.0d
+			y: 4.5d
+			id: "2591615E39951596"
+			tasks: [{
+				id: "292BA77AA0984D13"
+				type: "item"
+				item: "battletowers:boss_key"
+				count: 10L
+			}]
+			rewards: [{
+				id: "3D822032585509E3"
+				type: "loot"
+				table_id: 3133982820876343405L
+			}]
+		}
+		{
+			title: "Battletower Slayer"
+			x: 0.0d
+			y: -4.5d
+			subtitle: "Collect all Key items to get option to build tower where you want!"
+			description: [""]
+			dependencies: ["13B2CAB558F8E7E9"]
+			id: "1A0648F90E17CE74"
+			tasks: [
+				{
+					id: "15BDFAC0342C1AEA"
+					type: "item"
+					item: "battletowers:boss_key"
+				}
+				{
+					id: "0EBA085F9528038B"
+					type: "item"
+					item: "battletowers:boss_key"
+				}
+				{
+					id: "7A4FC4DD071F211F"
+					type: "item"
+					item: "minecraft:enchanted_golden_apple"
+				}
+				{
+					id: "1462D783DA1D516B"
+					type: "checkmark"
+				}
+			]
+			rewards: [{
+				id: "4BA762075AEBC5F8"
+				type: "item"
+				team_reward: false
+				item: "battletowers:foreign_key"
+				random_bonus: 1
+			}]
+		}
+		{
+			x: -1.5d
+			y: 4.5d
+			dependencies: ["6D40F876D9210A9F"]
+			id: "223D2F3263B6FC3F"
+			tasks: [{
+				id: "20D4EC437592459C"
+				type: "item"
+				item: {
+					id: "vanilla-hammers:wooden_hammer"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -2.5d
+			y: 4.5d
+			dependencies: ["223D2F3263B6FC3F"]
+			id: "1EAF4B3C36F07481"
+			tasks: [{
+				id: "277706DE4E2DCD48"
+				type: "item"
+				item: {
+					id: "vanilla-hammers:stone_hammer"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -4.5d
+			y: 5.0d
+			dependencies: ["644681D0B0589BDB"]
+			id: "243DBDF69A48A241"
+			tasks: [{
+				id: "1E0AB2F928915931"
+				type: "item"
+				item: {
+					id: "vanilla-hammers:golden_hammer"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -3.5d
+			y: 4.5d
+			dependencies: ["1EAF4B3C36F07481"]
+			id: "644681D0B0589BDB"
+			tasks: [{
+				id: "688FF3864DDAD84E"
+				type: "item"
+				item: {
+					id: "vanilla-hammers:iron_hammer"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -1.5d
+			y: 5.5d
+			dependencies: ["1EEA69BF371FD96C"]
+			id: "47800169C9232B87"
+			tasks: [{
+				id: "03ADDAD20F6DA881"
+				type: "item"
+				item: {
+					id: "vanilla-hammers:netherite_hammer"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -2.5d
+			y: 5.5d
+			dependencies: ["23D1D1E97A8CBF08"]
+			id: "1EEA69BF371FD96C"
+			tasks: [{
+				id: "6D7CB760277CE869"
+				type: "item"
+				item: {
+					id: "vanilla-hammers:emerald_hammer"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -3.5d
+			y: 5.5d
+			dependencies: ["243DBDF69A48A241"]
+			id: "23D1D1E97A8CBF08"
+			tasks: [{
+				id: "3EBB02376ED8692F"
+				type: "item"
+				item: {
+					id: "vanilla-hammers:diamond_hammer"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 1.5d
+			y: 4.5d
+			dependencies: ["6D40F876D9210A9F"]
+			id: "111E687CF2FA8AA1"
+			tasks: [{
+				id: "08B716F4073D6BA3"
+				type: "item"
+				item: {
+					id: "gateofbabylon:wooden_katana"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 2.5d
+			y: 4.5d
+			dependencies: ["111E687CF2FA8AA1"]
+			id: "50CB33F37D1AFE04"
+			tasks: [{
+				id: "096ACD8C423CBB89"
+				type: "item"
+				item: {
+					id: "gateofbabylon:stone_katana"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 3.5d
+			y: 4.5d
+			dependencies: ["50CB33F37D1AFE04"]
+			id: "2AA56C91E71BBCBD"
+			tasks: [{
+				id: "09C2A4D1B286B994"
+				type: "item"
+				item: {
+					id: "gateofbabylon:iron_katana"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 3.5d
+			y: 5.5d
+			dependencies: ["2AA56C91E71BBCBD"]
+			id: "3FDD31FA8BE99F76"
+			tasks: [{
+				id: "39ADB23E7AC0C93B"
+				type: "item"
+				item: {
+					id: "gateofbabylon:golden_katana"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 2.5d
+			y: 5.5d
+			dependencies: ["3FDD31FA8BE99F76"]
+			id: "7A41507B6809AE89"
+			tasks: [{
+				id: "54D6F41A708D5F88"
+				type: "item"
+				item: {
+					id: "gateofbabylon:diamond_katana"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 1.5d
+			y: 5.5d
+			dependencies: ["7A41507B6809AE89"]
+			id: "4F014F0CE9F2EDD9"
+			tasks: [{
+				id: "3450540869126F85"
+				type: "item"
+				item: {
+					id: "gateofbabylon:netherite_katana"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 0.0d
+			y: 5.5d
+			id: "6D40F876D9210A9F"
+			tasks: [{
+				id: "4A15F3AA04A44857"
+				type: "checkmark"
+				title: "Snake"
+			}]
+			rewards: [{
+				id: "606F63F3752B042E"
+				type: "item"
+				item: "byg:snowdrops"
+			}]
+		}
+		{
+			title: "Basic Hammer"
+			icon: {
+				id: "techreborn:basic_jackhammer"
+				Count: 1b
+				tag: {
+					energy: 0
+				}
+			}
+			x: 0.0d
+			y: 8.0d
+			dependencies: [
+				"47800169C9232B87"
+				"4F014F0CE9F2EDD9"
+			]
+			id: "7E2745054EDEF594"
+			tasks: [
+				{
+					id: "1B929C1949874927"
+					type: "item"
+					item: {
+						id: "vanilla-hammers:slime_hammer"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "7A2AF3BD7F708306"
+					type: "item"
+					item: {
+						id: "vanilla-hammers:fiery_hammer"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "118C5B3436881B15"
+					type: "item"
+					item: {
+						id: "vanilla-hammers:lapis_hammer"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "0E3A6229840AC805"
+					type: "item"
+					item: {
+						id: "vanilla-hammers:obsidian_hammer"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "26F88C5E31F18A72"
+					type: "item"
+					item: {
+						id: "vanilla-hammers:prismarine_hammer"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "71F299640541830B"
+					type: "item"
+					item: {
+						id: "indrev:hammer"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "1B2F13FBD2FDB958"
+					type: "item"
+					item: {
+						id: "betterend:aeternium_hammer"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "6F8C98EE6C6B6647"
+					type: "item"
+					item: {
+						id: "betterend:iron_hammer"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "1C3E20751813A549"
+					type: "item"
+					item: {
+						id: "betterend:diamond_hammer"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "14895CACAA4EB6DB"
+					type: "item"
+					item: {
+						id: "betterend:thallasium_hammer"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "3F341ED298CB06DE"
+					type: "item"
+					item: {
+						id: "betterend:terminite_hammer"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "4675D66FC776BCCB"
+				type: "item"
+				item: {
+					id: "techreborn:basic_jackhammer"
+					Count: 1b
+					tag: {
+						energy: 10000.0d
+					}
+				}
+			}]
+		}
+	]
+}

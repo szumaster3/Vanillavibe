@@ -1,0 +1,84 @@
+{
+	id: "37C5BB6AE9E73F11"
+	group: "293A0E7F313C58DC"
+	order_index: 0
+	filename: "exploration"
+	title: "&fOverworld"
+	icon: "minecraft:grass_block"
+	default_quest_shape: "rsquare"
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			title: "Fun Facts"
+			x: 0.0d
+			y: 0.0d
+			shape: "circle"
+			subtitle: "&aThe creator of Minecraft lists the PC video games Dwarf Fortress, Dungeon Keeper, RollerCoaster Tycoon, and Infiniminer as the main inspirations for Minecraft. Persson made a special tribute to Infiniminer, saying he would like to combine its aesthetic appeal with an RPG-style gameplay. See what the Infiniminer looks like on Google. It is very similar to Minecraft."
+			size: 1.2d
+			id: "43B7F8B8E206346B"
+			tasks: [{
+				id: "52A13093311CBE63"
+				type: "item"
+				item: {
+					id: "naturescompass:naturescompass"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [{
+				id: "740D17FBE208E8FA"
+				type: "choice"
+				table_id: 4023534927821043910L
+			}]
+		}
+		{
+			title: "&7Order of the Stone"
+			x: 0.0d
+			y: -1.5d
+			subtitle: "&cYou dont need to ruin overworld."
+			id: "02D9C77465BD1FAB"
+			tasks: [{
+				id: "6645E9B9123EC06C"
+				type: "dimension"
+				title: "&7Discover the world of caves!"
+				dimension: "mining_dims:caving_dim"
+			}]
+		}
+		{
+			title: "&fHunter Dimension"
+			x: -1.5d
+			y: 0.0d
+			subtitle: "&cYou need to focus there"
+			id: "09087CFB9CFA8C31"
+			tasks: [{
+				id: "5F0FE0783FAFDB65"
+				type: "dimension"
+				dimension: "mining_dims:hunting_dim"
+			}]
+		}
+		{
+			title: "&fEasy Resources"
+			x: 1.5d
+			y: 0.0d
+			subtitle: "&cAll you need is create a portal"
+			id: "173A0E671709A8D6"
+			tasks: [{
+				id: "03E2960A0C4A46D3"
+				type: "dimension"
+				dimension: "mining_dims:mining_dim"
+			}]
+		}
+		{
+			title: "&fGo wherever you want"
+			x: 0.0d
+			y: 1.5d
+			subtitle: "&cYou will only find vanilla biomes there"
+			id: "676418E0263FD27B"
+			tasks: [{
+				id: "22A7D1A6475D104D"
+				type: "dimension"
+				dimension: "mining_dims:nethering_dim"
+			}]
+		}
+	]
+}

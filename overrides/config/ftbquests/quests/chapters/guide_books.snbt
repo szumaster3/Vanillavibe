@@ -1,0 +1,243 @@
+{
+	id: "4AE65DB149215CDD"
+	group: ""
+	order_index: 0
+	filename: "guide_books"
+	title: "&fGuides"
+	icon: "minecraft:written_book"
+	default_quest_shape: "diamond"
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			title: "Croptopia Books"
+			icon: "croptopia:guide"
+			disable_toast: true
+			x: -1.0d
+			y: 1.0d
+			shape: "diamond"
+			subtitle: "About crops and food."
+			dependencies: ["7C130CFBD06E7AEA"]
+			id: "5C184F93DDD89EE5"
+			tasks: [{
+				id: "37C2A5CCA12C7E3E"
+				type: "checkmark"
+				title: "&a☑"
+			}]
+			rewards: [
+				{
+					id: "33B216254F74E793"
+					type: "item"
+					team_reward: false
+					auto: "disabled"
+					item: "croptopia:guide"
+					only_one: true
+				}
+				{
+					id: "145D8A7CC7AA890B"
+					type: "item"
+					team_reward: false
+					auto: "disabled"
+					item: {
+						id: "patchouli:guide_book"
+						Count: 1b
+						tag: {
+							"patchouli:book": "croptopia:guide"
+						}
+					}
+					only_one: true
+				}
+			]
+		}
+		{
+			title: "Adorn Books"
+			icon: "adorn:traders_manual"
+			disable_toast: true
+			x: 2.5d
+			y: 2.0d
+			subtitle: "About decoration and furnitures."
+			dependencies: ["7C130CFBD06E7AEA"]
+			id: "65B9A64436C4CFA0"
+			tasks: [{
+				id: "6B3C574C7CDACF81"
+				type: "checkmark"
+				title: "&a☑"
+			}]
+			rewards: [
+				{
+					id: "0F38EE24862CA8B4"
+					type: "item"
+					team_reward: false
+					auto: "disabled"
+					item: "adorn:guide_book"
+					only_one: true
+				}
+				{
+					id: "1D946A0B219F6A38"
+					type: "item"
+					team_reward: false
+					auto: "disabled"
+					item: "adorn:traders_manual"
+					only_one: true
+				}
+			]
+		}
+		{
+			title: "Quest Book"
+			icon: "ftbquests:book"
+			disable_toast: true
+			x: -1.5d
+			y: 0.0d
+			shape: "diamond"
+			subtitle: "Check your Adventure Progress."
+			dependencies: ["7C130CFBD06E7AEA"]
+			id: "3A1D55709F161ED4"
+			tasks: [{
+				id: "3C646F5799FA50A6"
+				type: "checkmark"
+				title: "&a☑"
+			}]
+			rewards: [{
+				id: "3816C841A384EAB2"
+				type: "item"
+				title: "Quests Book"
+				team_reward: false
+				auto: "disabled"
+				item: "ftbquests:book"
+				only_one: true
+			}]
+		}
+		{
+			title: "Tech Reborn Guide Book"
+			icon: "techreborn:manual"
+			disable_toast: true
+			x: 3.0d
+			y: 1.0d
+			shape: "diamond"
+			subtitle: "About tools and machines to gather resources, process materials, and progress through the mod."
+			dependencies: ["7C130CFBD06E7AEA"]
+			id: "2E78D12D9A176F7B"
+			tasks: [{
+				id: "237F946635D02B83"
+				type: "checkmark"
+				title: "&a☑"
+			}]
+			rewards: [{
+				id: "0428440D4078294F"
+				type: "item"
+				title: "Guide Book"
+				item: "techreborn:manual"
+			}]
+		}
+		{
+			title: "TIS-3D"
+			icon: "minecraft:knowledge_book"
+			disable_toast: true
+			x: 2.0d
+			y: 3.0d
+			shape: "diamond"
+			subtitle: "About multi-block computers from different modules in a super-flexible manner."
+			dependencies: ["7C130CFBD06E7AEA"]
+			id: "4BFC74C7D4446690"
+			tasks: [{
+				id: "6236223E7F36612E"
+				type: "checkmark"
+				title: "&a☑"
+			}]
+			rewards: [{
+				id: "427BA12F4D7B24E0"
+				type: "item"
+				title: "Manual"
+				item: "tis3d:book_manual"
+			}]
+		}
+		{
+			title: "Modern Industrialization Guide Book"
+			icon: "modern_industrialization:guidebook"
+			disable_toast: true
+			x: -0.5d
+			y: 2.0d
+			shape: "diamond"
+			subtitle: "About automation."
+			description: [""]
+			dependencies: ["7C130CFBD06E7AEA"]
+			id: "2C93DE2197E4592C"
+			tasks: [{
+				id: "3E658A69A6BD1384"
+				type: "checkmark"
+				title: "&a☑"
+			}]
+			rewards: [{
+				id: "6CE6B0869C51A464"
+				type: "item"
+				item: "modern_industrialization:guidebook"
+			}]
+		}
+		{
+			title: "Industrial Revolution Guide Book"
+			icon: "indrev:guide_book"
+			disable_toast: true
+			x: 3.5d
+			y: 0.0d
+			shape: "diamond"
+			subtitle: "About processing machines for your factory."
+			dependencies: ["7C130CFBD06E7AEA"]
+			id: "5B613302556DCDDF"
+			tasks: [{
+				id: "1E10C8B9F371F079"
+				type: "checkmark"
+				title: "&a☑"
+			}]
+			rewards: [{
+				id: "459BE741934DB1E0"
+				type: "item"
+				title: "Guide Book"
+				item: "indrev:guide_book"
+			}]
+		}
+		{
+			title: "Conjuring"
+			icon: "computercraft:printed_book"
+			disable_toast: true
+			x: 0.0d
+			y: 3.0d
+			shape: "diamond"
+			subtitle: "About working with souls and other strange substances found in the Nether to create contraptions that are all somehow concerned with the conjuration of entites."
+			description: [""]
+			dependencies: ["7C130CFBD06E7AEA"]
+			id: "5B2C9DB37FF7CED1"
+			tasks: [{
+				id: "55709FD9B6FBEAE5"
+				type: "checkmark"
+				title: "&a☑"
+			}]
+			rewards: [{
+				id: "09F81C4BCA407E15"
+				type: "item"
+				title: "Guide Book"
+				item: {
+					id: "conjuring:enchiridion"
+					Count: 1b
+					tag: { }
+				}
+				only_one: true
+			}]
+		}
+		{
+			icon: "croptopia:vanilla_ice_cream"
+			x: 1.0d
+			y: 4.0d
+			subtitle: "Hope you might like it"
+			id: "7C130CFBD06E7AEA"
+			tasks: [{
+				id: "110ACE87E7647BC5"
+				type: "checkmark"
+				title: "&6Welcome to Vanillavibe"
+			}]
+			rewards: [{
+				id: "520A951A370875AE"
+				type: "item"
+				item: "drinkbeer:beer_mug_apple_lambic"
+			}]
+		}
+	]
+}

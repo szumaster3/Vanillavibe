@@ -1,0 +1,2240 @@
+{
+	id: "29B863365E09485F"
+	group: "13E5EF03951BCD7C"
+	order_index: 1
+	filename: "storage"
+	title: "&fStorages"
+	icon: "expandedstorage:diamond_barrel"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			title: "&fAll the Storages"
+			icon: "minecraft:ender_chest"
+			x: 0.0d
+			y: 3.0d
+			subtitle: "Start here!"
+			id: "5E7001E507253EE7"
+			tasks: [{
+				id: "01CC10B8AD48355A"
+				type: "item"
+				item: "minecraft:oak_planks"
+				count: 4L
+			}]
+			rewards: [{
+				id: "1DBEB221A845507D"
+				type: "item"
+				item: "expandedstorage:wood_chest"
+			}]
+		}
+		{
+			x: -1.5d
+			y: -1.0d
+			dependencies: ["2653D1693B46C3B5"]
+			id: "095CB641A721C127"
+			tasks: [{
+				id: "3ED75F7161A56B22"
+				type: "item"
+				item: "minecraft:leather"
+			}]
+			rewards: [
+				{
+					id: "544F85BCA104EA7A"
+					type: "loot"
+					table_id: 5705109811401542117L
+				}
+				{
+					id: "64B8E841071FDFCB"
+					type: "loot"
+					table_id: 3279900820427924797L
+				}
+			]
+		}
+		{
+			x: 1.5d
+			y: 0.5d
+			dependencies: ["5E7001E507253EE7"]
+			id: "3D2BD503369CBF8B"
+			tasks: [{
+				id: "5E97B6439ACA7F75"
+				type: "item"
+				item: "minecraft:oak_planks"
+				count: 4L
+			}]
+			rewards: [
+				{
+					id: "34DC6A2E05FC59ED"
+					type: "loot"
+					table_id: 5705109811401542117L
+				}
+				{
+					id: "74B244C87E501AD4"
+					type: "loot"
+					table_id: 3279900820427924797L
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: -1.0d
+			dependencies: [
+				"5E7001E507253EE7"
+				"3103E9CE1949F8FA"
+			]
+			id: "0C298C105BA88244"
+			tasks: [{
+				id: "36327E9D6B2386CA"
+				type: "item"
+				item: "dankstorage:dock"
+			}]
+			rewards: [
+				{
+					id: "72CA807A43A4ED7B"
+					type: "loot"
+					table_id: 5705109811401542117L
+				}
+				{
+					id: "09EB0745CB07F2E5"
+					type: "loot"
+					table_id: 3279900820427924797L
+				}
+			]
+		}
+		{
+			x: -1.5d
+			y: -2.5d
+			dependencies: [
+				"095CB641A721C127"
+				"2653D1693B46C3B5"
+			]
+			id: "5E63883A3D627BB1"
+			tasks: [{
+				id: "3C3490714FFFAA46"
+				type: "item"
+				item: {
+					id: "inmis:baby_backpack"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [
+				{
+					id: "22BB5D457949EA93"
+					type: "loot"
+					table_id: 5705109811401542117L
+				}
+				{
+					id: "4BD5397AA6992290"
+					type: "loot"
+					table_id: 3279900820427924797L
+				}
+			]
+		}
+		{
+			x: -1.5d
+			y: -4.0d
+			dependencies: ["5E63883A3D627BB1"]
+			id: "1A3F6013D3F433D2"
+			tasks: [{
+				id: "5BEC2EEF37142880"
+				type: "item"
+				item: {
+					id: "inmis:frayed_backpack"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [
+				{
+					id: "59D4460C6342C6BD"
+					type: "loot"
+					table_id: 5705109811401542117L
+				}
+				{
+					id: "6691EED342F7A799"
+					type: "loot"
+					table_id: 3279900820427924797L
+				}
+			]
+		}
+		{
+			x: -1.5d
+			y: -5.5d
+			dependencies: [
+				"5E63883A3D627BB1"
+				"1A3F6013D3F433D2"
+			]
+			id: "6825C2B9A3C6DB99"
+			tasks: [{
+				id: "01F8D10B3C9689EF"
+				type: "item"
+				item: {
+					id: "inmis:plated_backpack"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [
+				{
+					id: "60EDE1F6E90A91C3"
+					type: "loot"
+					table_id: 5705109811401542117L
+				}
+				{
+					id: "30866549A2F79609"
+					type: "loot"
+					table_id: 3279900820427924797L
+				}
+			]
+		}
+		{
+			x: -1.5d
+			y: -7.0d
+			dependencies: [
+				"5E63883A3D627BB1"
+				"1A3F6013D3F433D2"
+				"6825C2B9A3C6DB99"
+			]
+			id: "52206A63DBC62281"
+			tasks: [{
+				id: "2FFD99CCB02A261E"
+				type: "item"
+				item: {
+					id: "inmis:gilded_backpack"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [
+				{
+					id: "52610EDE689D492F"
+					type: "loot"
+					table_id: 5705109811401542117L
+				}
+				{
+					id: "22B8ED5C5BF6D3AE"
+					type: "loot"
+					table_id: 3279900820427924797L
+				}
+			]
+		}
+		{
+			x: -1.5d
+			y: -8.5d
+			dependencies: [
+				"5E63883A3D627BB1"
+				"1A3F6013D3F433D2"
+				"6825C2B9A3C6DB99"
+				"52206A63DBC62281"
+			]
+			id: "53A6C8D0252B6AD4"
+			tasks: [{
+				id: "7D357234FDD74E4B"
+				type: "item"
+				item: {
+					id: "inmis:bejeweled_backpack"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [
+				{
+					id: "4596414C424AD0DA"
+					type: "loot"
+					table_id: 5705109811401542117L
+				}
+				{
+					id: "7DAB4DFC8B8D8FAA"
+					type: "loot"
+					table_id: 3279900820427924797L
+				}
+			]
+		}
+		{
+			x: -1.5d
+			y: -10.0d
+			dependencies: [
+				"5E63883A3D627BB1"
+				"1A3F6013D3F433D2"
+				"6825C2B9A3C6DB99"
+				"52206A63DBC62281"
+				"53A6C8D0252B6AD4"
+			]
+			id: "6CA0F1FAA7B33A0B"
+			tasks: [{
+				id: "61AC055902DE9360"
+				type: "item"
+				item: {
+					id: "inmis:blazing_backpack"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [
+				{
+					id: "2F385E8AACDCF067"
+					type: "loot"
+					table_id: 5705109811401542117L
+				}
+				{
+					id: "7ED15EEFD9C951B3"
+					type: "loot"
+					table_id: 3279900820427924797L
+				}
+			]
+		}
+		{
+			x: -1.5d
+			y: -11.5d
+			dependencies: [
+				"5E63883A3D627BB1"
+				"1A3F6013D3F433D2"
+				"6825C2B9A3C6DB99"
+				"52206A63DBC62281"
+				"53A6C8D0252B6AD4"
+				"6CA0F1FAA7B33A0B"
+			]
+			id: "7A344AAD99F89352"
+			tasks: [{
+				id: "044F5E1B72042A03"
+				type: "item"
+				item: {
+					id: "inmis:withered_backpack"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [
+				{
+					id: "0DB81EC5C542808B"
+					type: "loot"
+					table_id: 5705109811401542117L
+				}
+				{
+					id: "3B7C40C2E995A475"
+					type: "loot"
+					table_id: 3279900820427924797L
+				}
+			]
+		}
+		{
+			x: -1.5d
+			y: -14.5d
+			dependencies: [
+				"5E63883A3D627BB1"
+				"1A3F6013D3F433D2"
+				"6825C2B9A3C6DB99"
+				"52206A63DBC62281"
+				"53A6C8D0252B6AD4"
+				"6CA0F1FAA7B33A0B"
+				"7A344AAD99F89352"
+			]
+			id: "03193023DADEE6FE"
+			tasks: [{
+				id: "440B8DCEB9DA1D1E"
+				type: "item"
+				item: "inmis:endless_backpack"
+			}]
+			rewards: [
+				{
+					id: "02931A5D32BB72DC"
+					type: "loot"
+					table_id: 5705109811401542117L
+				}
+				{
+					id: "53EC978D7C77E466"
+					type: "loot"
+					table_id: 3279900820427924797L
+				}
+				{
+					id: "4C27DD8B756AEF63"
+					type: "item"
+					item: "expandedstorage:christmas_chest"
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: -4.0d
+			dependencies: ["6C2872CBD6AC983E"]
+			id: "28627FF5E57C8FF7"
+			tasks: [{
+				id: "3644876F56FA5418"
+				type: "item"
+				item: "dankstorage:dank_2"
+			}]
+			rewards: [
+				{
+					id: "15EEAC05D345A1E4"
+					type: "loot"
+					table_id: 5705109811401542117L
+				}
+				{
+					id: "6DE0A8B2D0AF0A67"
+					type: "loot"
+					table_id: 3279900820427924797L
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: -5.5d
+			dependencies: [
+				"28627FF5E57C8FF7"
+				"6C2872CBD6AC983E"
+			]
+			id: "23444A36335C256D"
+			tasks: [{
+				id: "4CBC8FA54F2A2AB3"
+				type: "item"
+				item: "dankstorage:dank_3"
+			}]
+			rewards: [
+				{
+					id: "0564200E9EFA4E00"
+					type: "loot"
+					table_id: 5705109811401542117L
+				}
+				{
+					id: "59B2F0B28255B8ED"
+					type: "loot"
+					table_id: 3279900820427924797L
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: -7.0d
+			dependencies: [
+				"23444A36335C256D"
+				"28627FF5E57C8FF7"
+				"6C2872CBD6AC983E"
+			]
+			id: "4C99C2263F452C80"
+			tasks: [{
+				id: "72681E12538106F2"
+				type: "item"
+				item: "dankstorage:dank_4"
+			}]
+			rewards: [
+				{
+					id: "6DDAD5E8F0E018A3"
+					type: "loot"
+					table_id: 5705109811401542117L
+				}
+				{
+					id: "3522C53D64392F6B"
+					type: "loot"
+					table_id: 3279900820427924797L
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: -8.5d
+			dependencies: [
+				"28627FF5E57C8FF7"
+				"23444A36335C256D"
+				"4C99C2263F452C80"
+				"6C2872CBD6AC983E"
+			]
+			id: "1AE1C29FA7C75CBB"
+			tasks: [{
+				id: "19591FAB9A1D9530"
+				type: "item"
+				item: "dankstorage:dank_5"
+			}]
+			rewards: [
+				{
+					id: "7CE3F5F3CCB716B8"
+					type: "loot"
+					table_id: 5705109811401542117L
+				}
+				{
+					id: "6DF19D849EE1B6FD"
+					type: "loot"
+					table_id: 3279900820427924797L
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: -10.0d
+			dependencies: [
+				"28627FF5E57C8FF7"
+				"23444A36335C256D"
+				"4C99C2263F452C80"
+				"1AE1C29FA7C75CBB"
+				"6C2872CBD6AC983E"
+			]
+			id: "2D7A60CD7A4D81EE"
+			tasks: [{
+				id: "685007B10853CB32"
+				type: "item"
+				item: "dankstorage:dank_6"
+			}]
+			rewards: [
+				{
+					id: "647E02B11C318185"
+					type: "loot"
+					table_id: 5705109811401542117L
+				}
+				{
+					id: "6BE7104D1941FC26"
+					type: "loot"
+					table_id: 3279900820427924797L
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: -14.5d
+			dependencies: [
+				"28627FF5E57C8FF7"
+				"23444A36335C256D"
+				"4C99C2263F452C80"
+				"1AE1C29FA7C75CBB"
+				"2D7A60CD7A4D81EE"
+				"6C2872CBD6AC983E"
+			]
+			id: "641A7CC36C079120"
+			tasks: [{
+				id: "3AB4BA38C8E97286"
+				type: "item"
+				item: "dankstorage:dank_7"
+			}]
+			rewards: [
+				{
+					id: "327E1BBC7E8CC99D"
+					type: "loot"
+					table_id: 5705109811401542117L
+				}
+				{
+					id: "2266B87E47768E62"
+					type: "loot"
+					table_id: 3279900820427924797L
+				}
+				{
+					id: "190BD9C91C66D0E3"
+					type: "item"
+					item: "expandedstorage:candy_cane_mini_present_with_sparrow"
+				}
+			]
+		}
+		{
+			x: 1.5d
+			y: -2.5d
+			dependencies: ["0C298C105BA88244"]
+			id: "79562E446742E6A2"
+			tasks: [{
+				id: "50157A6468C5D5DD"
+				type: "item"
+				item: "dankstorage:1_to_2"
+			}]
+			rewards: [
+				{
+					id: "4042BEB2F6574E35"
+					type: "loot"
+					table_id: 5705109811401542117L
+				}
+				{
+					id: "27151F3F07156663"
+					type: "loot"
+					table_id: 3279900820427924797L
+				}
+			]
+		}
+		{
+			x: 1.5d
+			y: -4.0d
+			dependencies: [
+				"79562E446742E6A2"
+				"6C2872CBD6AC983E"
+			]
+			id: "3CEE99C563EBBA29"
+			tasks: [{
+				id: "48580D6EC9A02F53"
+				type: "item"
+				item: "dankstorage:2_to_3"
+			}]
+			rewards: [
+				{
+					id: "03F912925DA516C9"
+					type: "loot"
+					table_id: 5705109811401542117L
+				}
+				{
+					id: "599CA76A9633C09A"
+					type: "loot"
+					table_id: 3279900820427924797L
+				}
+			]
+		}
+		{
+			x: 1.5d
+			y: -5.5d
+			dependencies: [
+				"3CEE99C563EBBA29"
+				"28627FF5E57C8FF7"
+			]
+			id: "406416507489BBF5"
+			tasks: [{
+				id: "2511F4D9575064F3"
+				type: "item"
+				item: "dankstorage:3_to_4"
+			}]
+			rewards: [
+				{
+					id: "0C64C1ABB459C3C5"
+					type: "loot"
+					table_id: 5705109811401542117L
+				}
+				{
+					id: "7E713478760D98AA"
+					type: "loot"
+					table_id: 3279900820427924797L
+				}
+			]
+		}
+		{
+			x: 1.5d
+			y: -7.0d
+			dependencies: [
+				"406416507489BBF5"
+				"23444A36335C256D"
+			]
+			id: "6EC9F1B12A1F8966"
+			tasks: [{
+				id: "778D6B42D3F732CD"
+				type: "item"
+				item: "dankstorage:4_to_5"
+			}]
+			rewards: [
+				{
+					id: "2F8FAB34AF46A860"
+					type: "loot"
+					table_id: 5705109811401542117L
+				}
+				{
+					id: "3033032D1A6890E1"
+					type: "loot"
+					table_id: 3279900820427924797L
+				}
+			]
+		}
+		{
+			x: 1.5d
+			y: -8.5d
+			dependencies: [
+				"6EC9F1B12A1F8966"
+				"4C99C2263F452C80"
+			]
+			id: "7D6A53919040DA98"
+			tasks: [{
+				id: "489B265A99281C71"
+				type: "item"
+				item: "dankstorage:5_to_6"
+			}]
+			rewards: [
+				{
+					id: "30D2192792260680"
+					type: "loot"
+					table_id: 5705109811401542117L
+				}
+				{
+					id: "6BF89E4537736332"
+					type: "loot"
+					table_id: 3279900820427924797L
+				}
+			]
+		}
+		{
+			x: 1.5d
+			y: -10.0d
+			dependencies: [
+				"7D6A53919040DA98"
+				"1AE1C29FA7C75CBB"
+			]
+			id: "500E0F0F20023EE9"
+			tasks: [{
+				id: "0560BD85A179A2CF"
+				type: "item"
+				item: "dankstorage:6_to_7"
+			}]
+			rewards: [
+				{
+					id: "5325620F434A4F19"
+					type: "loot"
+					table_id: 5705109811401542117L
+				}
+				{
+					id: "41EAF2685898B81A"
+					type: "loot"
+					table_id: 3279900820427924797L
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: -2.5d
+			dependencies: ["0C298C105BA88244"]
+			id: "6C2872CBD6AC983E"
+			tasks: [{
+				id: "761323643E191C69"
+				type: "item"
+				item: "dankstorage:dank_1"
+			}]
+			rewards: [
+				{
+					id: "59770EEF19332163"
+					type: "loot"
+					table_id: 5705109811401542117L
+				}
+				{
+					id: "605C3CB6B8BFE2EA"
+					type: "loot"
+					table_id: 3279900820427924797L
+				}
+			]
+		}
+		{
+			x: 3.0d
+			y: -4.0d
+			dependencies: ["615034F272EB25BE"]
+			hide_text_until_complete: true
+			id: "5EC15308360B4C6A"
+			tasks: [{
+				id: "0F00A587E6BB256A"
+				type: "item"
+				item: "charm:oak_crate"
+			}]
+			rewards: [
+				{
+					id: "13A4177A37E80D04"
+					type: "loot"
+					table_id: 5705109811401542117L
+				}
+				{
+					id: "1C7204FC928B53B3"
+					type: "loot"
+					table_id: 3279900820427924797L
+				}
+			]
+		}
+		{
+			x: 3.0d
+			y: -5.5d
+			dependencies: [
+				"615034F272EB25BE"
+				"5EC15308360B4C6A"
+			]
+			id: "57D8C2F561BFF481"
+			tasks: [{
+				id: "01B1BB91212A0933"
+				type: "item"
+				item: "charm:spruce_crate"
+			}]
+			rewards: [
+				{
+					id: "266F084E42C2D23C"
+					type: "loot"
+					table_id: 5705109811401542117L
+				}
+				{
+					id: "739C6790E5DA4D9C"
+					type: "loot"
+					table_id: 3279900820427924797L
+				}
+			]
+		}
+		{
+			x: 3.0d
+			y: -7.0d
+			dependencies: [
+				"57D8C2F561BFF481"
+				"5EC15308360B4C6A"
+				"615034F272EB25BE"
+			]
+			id: "3DCC700765B43D64"
+			tasks: [{
+				id: "6375CC49DB856941"
+				type: "item"
+				item: "charm:birch_crate"
+			}]
+			rewards: [
+				{
+					id: "7E676F90B97B4C6D"
+					type: "loot"
+					table_id: 5705109811401542117L
+				}
+				{
+					id: "7BE70C8E9AA8A1CA"
+					type: "loot"
+					table_id: 3279900820427924797L
+				}
+			]
+		}
+		{
+			x: 3.0d
+			y: -8.5d
+			dependencies: [
+				"5EC15308360B4C6A"
+				"57D8C2F561BFF481"
+				"3DCC700765B43D64"
+				"615034F272EB25BE"
+			]
+			id: "06D3D00A0ED939BB"
+			tasks: [{
+				id: "2488676F3B5781FA"
+				type: "item"
+				item: "charm:jungle_crate"
+			}]
+			rewards: [
+				{
+					id: "7BBDA032F15BD5B9"
+					type: "loot"
+					table_id: 5705109811401542117L
+				}
+				{
+					id: "0630F23E946ABDDF"
+					type: "loot"
+					table_id: 3279900820427924797L
+				}
+			]
+		}
+		{
+			x: 3.0d
+			y: -10.0d
+			dependencies: [
+				"5EC15308360B4C6A"
+				"57D8C2F561BFF481"
+				"3DCC700765B43D64"
+				"615034F272EB25BE"
+				"06D3D00A0ED939BB"
+			]
+			id: "29E4419FF0D95411"
+			tasks: [{
+				id: "24E981BBBC9E64C5"
+				type: "item"
+				item: "charm:acacia_crate"
+			}]
+			rewards: [
+				{
+					id: "7A44878CD61CA968"
+					type: "loot"
+					table_id: 5705109811401542117L
+				}
+				{
+					id: "031394FF2C6B6FA0"
+					type: "loot"
+					table_id: 3279900820427924797L
+				}
+			]
+		}
+		{
+			x: 3.0d
+			y: -11.5d
+			dependencies: [
+				"3DCC700765B43D64"
+				"06D3D00A0ED939BB"
+				"5EC15308360B4C6A"
+				"57D8C2F561BFF481"
+				"615034F272EB25BE"
+				"29E4419FF0D95411"
+			]
+			id: "79DB99CF498CB04B"
+			tasks: [{
+				id: "6037BD709C4EF94A"
+				type: "item"
+				item: "charm:dark_oak_crate"
+			}]
+			rewards: [
+				{
+					id: "3C70F0E3C02AAAFB"
+					type: "loot"
+					table_id: 5705109811401542117L
+				}
+				{
+					id: "68799AF6A955F148"
+					type: "loot"
+					table_id: 3279900820427924797L
+				}
+			]
+		}
+		{
+			x: 3.0d
+			y: -13.0d
+			dependencies: [
+				"29E4419FF0D95411"
+				"3DCC700765B43D64"
+				"79DB99CF498CB04B"
+				"06D3D00A0ED939BB"
+				"5EC15308360B4C6A"
+				"57D8C2F561BFF481"
+				"615034F272EB25BE"
+			]
+			id: "7DF39E32E3FF49AE"
+			tasks: [{
+				id: "3FF10F9051342172"
+				type: "item"
+				item: "charm:crimson_crate"
+			}]
+			rewards: [
+				{
+					id: "533456AFBE95BCF3"
+					type: "loot"
+					table_id: 5705109811401542117L
+				}
+				{
+					id: "0052FB389CC0A2FB"
+					type: "loot"
+					table_id: 3279900820427924797L
+				}
+			]
+		}
+		{
+			x: 3.0d
+			y: -14.5d
+			dependencies: [
+				"29E4419FF0D95411"
+				"3DCC700765B43D64"
+				"79DB99CF498CB04B"
+				"06D3D00A0ED939BB"
+				"5EC15308360B4C6A"
+				"57D8C2F561BFF481"
+			]
+			id: "7EC97A554C71AB15"
+			tasks: [{
+				id: "05D32FDB5D293A78"
+				type: "item"
+				item: "charm:warped_crate"
+			}]
+			rewards: [
+				{
+					id: "32433E609B1E9132"
+					type: "loot"
+					table_id: 5705109811401542117L
+				}
+				{
+					id: "30B27EAECE7895EE"
+					type: "loot"
+					table_id: 3279900820427924797L
+				}
+				{
+					id: "79AC30EED15A4F13"
+					type: "item"
+					item: "expandedstorage:white_mini_present"
+				}
+			]
+		}
+		{
+			x: 3.0d
+			y: -2.5d
+			dependencies: ["3D2BD503369CBF8B"]
+			id: "615034F272EB25BE"
+			tasks: [{
+				id: "715CA4F704A5B841"
+				type: "item"
+				item: "minecraft:iron_ingot"
+				count: 4L
+			}]
+			rewards: [
+				{
+					id: "56B44381967D18A1"
+					type: "loot"
+					table_id: 5705109811401542117L
+				}
+				{
+					id: "175B7442B2B95D56"
+					type: "loot"
+					table_id: 3279900820427924797L
+				}
+			]
+		}
+		{
+			x: 4.5d
+			y: -2.5d
+			dependencies: ["3D2BD503369CBF8B"]
+			id: "5D934CB84202A8DF"
+			tasks: [{
+				id: "3119FC561F395FBC"
+				type: "item"
+				item: "minecraft:oak_slab"
+				count: 2L
+			}]
+			rewards: [
+				{
+					id: "4EFF9B0072083DDC"
+					type: "loot"
+					table_id: 5705109811401542117L
+				}
+				{
+					id: "7698295A26497488"
+					type: "loot"
+					table_id: 3279900820427924797L
+				}
+			]
+		}
+		{
+			x: 4.5d
+			y: -4.0d
+			dependencies: ["5D934CB84202A8DF"]
+			id: "318F7FA285DD5713"
+			tasks: [{
+				id: "0EA8C52DF23E04F7"
+				type: "item"
+				item: "charm:oak_barrel"
+			}]
+			rewards: [
+				{
+					id: "58162F1AAA7AFB48"
+					type: "loot"
+					table_id: 5705109811401542117L
+				}
+				{
+					id: "62E5BC8806FD6887"
+					type: "loot"
+					table_id: 3279900820427924797L
+				}
+			]
+		}
+		{
+			x: 4.5d
+			y: -5.5d
+			dependencies: [
+				"5D934CB84202A8DF"
+				"318F7FA285DD5713"
+			]
+			id: "795209689357CD37"
+			tasks: [{
+				id: "649B5697FC186993"
+				type: "item"
+				item: "charm:spruce_barrel"
+			}]
+			rewards: [
+				{
+					id: "472E971771762B42"
+					type: "loot"
+					table_id: 5705109811401542117L
+				}
+				{
+					id: "02BE5244E4F0F30B"
+					type: "loot"
+					table_id: 3279900820427924797L
+				}
+			]
+		}
+		{
+			x: 4.5d
+			y: -7.0d
+			dependencies: [
+				"318F7FA285DD5713"
+				"5D934CB84202A8DF"
+				"795209689357CD37"
+			]
+			id: "19280841E9EEFB2A"
+			tasks: [{
+				id: "0D65EECE500FC247"
+				type: "item"
+				item: "charm:birch_barrel"
+			}]
+			rewards: [
+				{
+					id: "43FC7260F66118E0"
+					type: "loot"
+					table_id: 5705109811401542117L
+				}
+				{
+					id: "119A43C0F5C0999D"
+					type: "loot"
+					table_id: 3279900820427924797L
+				}
+			]
+		}
+		{
+			x: 4.5d
+			y: -8.5d
+			dependencies: [
+				"5D934CB84202A8DF"
+				"318F7FA285DD5713"
+				"795209689357CD37"
+				"19280841E9EEFB2A"
+			]
+			id: "34E52889A9D0DBFA"
+			tasks: [{
+				id: "7AD94638C9DA0A24"
+				type: "item"
+				item: "charm:jungle_barrel"
+			}]
+			rewards: [
+				{
+					id: "37BAA1A5C70E305B"
+					type: "loot"
+					table_id: 5705109811401542117L
+				}
+				{
+					id: "092D102850E2E570"
+					type: "loot"
+					table_id: 3279900820427924797L
+				}
+			]
+		}
+		{
+			x: 4.5d
+			y: -14.5d
+			dependencies: [
+				"795209689357CD37"
+				"19280841E9EEFB2A"
+				"34E52889A9D0DBFA"
+				"318F7FA285DD5713"
+				"5D934CB84202A8DF"
+			]
+			id: "4BCFC0C04400A96B"
+			tasks: [{
+				id: "31646211EA1E373B"
+				type: "item"
+				item: "charm:acacia_barrel"
+			}]
+			rewards: [
+				{
+					id: "5167F0D383F7CDEE"
+					type: "loot"
+					table_id: 5705109811401542117L
+				}
+				{
+					id: "53D19CDE2698E8DF"
+					type: "loot"
+					table_id: 3279900820427924797L
+				}
+				{
+					id: "39D40F19740EE7E3"
+					type: "item"
+					item: "expandedstorage:candy_cane_mini_present"
+				}
+			]
+		}
+		{
+			x: -1.5d
+			y: 0.5d
+			dependencies: ["5E7001E507253EE7"]
+			id: "2653D1693B46C3B5"
+			tasks: [{
+				id: "4145B27A5F6587C4"
+				type: "item"
+				item: "minecraft:chest"
+			}]
+			rewards: [
+				{
+					id: "57601C99C6A3E4FA"
+					type: "item"
+					item: {
+						id: "expandedstorage:chest_mutator"
+						Count: 1b
+						tag: {
+							mode: 0b
+						}
+					}
+				}
+				{
+					id: "1A0736218BC85F71"
+					type: "loot"
+					table_id: 5705109811401542117L
+				}
+				{
+					id: "3BEF446781C1D2E7"
+					type: "loot"
+					table_id: 3279900820427924797L
+				}
+			]
+		}
+		{
+			x: -6.0d
+			y: 0.5d
+			dependencies: ["69AB1127F08CF9AF"]
+			id: "64A7885BB5BBCB7B"
+			tasks: [{
+				id: "2A7E20C251C55FC5"
+				type: "item"
+				item: "expandedstorage:iron_chest"
+			}]
+			rewards: [
+				{
+					id: "62B2D193716E3EAE"
+					type: "loot"
+					table_id: 5705109811401542117L
+				}
+				{
+					id: "4B852A9AA4334AC4"
+					type: "loot"
+					table_id: 3279900820427924797L
+				}
+			]
+		}
+		{
+			x: -7.5d
+			y: 0.5d
+			dependencies: [
+				"64A7885BB5BBCB7B"
+				"69AB1127F08CF9AF"
+			]
+			id: "67324C172A164A73"
+			tasks: [{
+				id: "24D6D3AF606D7DC7"
+				type: "item"
+				item: "expandedstorage:gold_chest"
+			}]
+			rewards: [
+				{
+					id: "559C7AFE9554F9A7"
+					type: "loot"
+					table_id: 5705109811401542117L
+				}
+				{
+					id: "290DA2FEE2EF5D4E"
+					type: "loot"
+					table_id: 3279900820427924797L
+				}
+			]
+		}
+		{
+			x: -9.0d
+			y: 0.5d
+			dependencies: [
+				"67324C172A164A73"
+				"64A7885BB5BBCB7B"
+				"69AB1127F08CF9AF"
+			]
+			id: "0C9498641E627D93"
+			tasks: [{
+				id: "5617B1A2512AA295"
+				type: "item"
+				item: "expandedstorage:diamond_chest"
+			}]
+			rewards: [
+				{
+					id: "2F06E310D3464F2C"
+					type: "loot"
+					table_id: 5705109811401542117L
+				}
+				{
+					id: "02A8F3E31373AB9E"
+					type: "loot"
+					table_id: 3279900820427924797L
+				}
+			]
+		}
+		{
+			x: -10.5d
+			y: 0.5d
+			dependencies: [
+				"0C9498641E627D93"
+				"67324C172A164A73"
+				"64A7885BB5BBCB7B"
+				"69AB1127F08CF9AF"
+			]
+			id: "22609DBA0548D647"
+			tasks: [{
+				id: "66F56E3A6E05988A"
+				type: "item"
+				item: "expandedstorage:obsidian_chest"
+			}]
+			rewards: [
+				{
+					id: "495575067F120615"
+					type: "loot"
+					table_id: 5705109811401542117L
+				}
+				{
+					id: "4F4532D31D25DB91"
+					type: "loot"
+					table_id: 3279900820427924797L
+				}
+			]
+		}
+		{
+			x: -12.0d
+			y: 0.5d
+			dependencies: [
+				"69AB1127F08CF9AF"
+				"64A7885BB5BBCB7B"
+				"67324C172A164A73"
+				"0C9498641E627D93"
+				"22609DBA0548D647"
+			]
+			id: "253FB570E86FC287"
+			tasks: [{
+				id: "30922A28345A67B2"
+				type: "item"
+				item: "expandedstorage:netherite_chest"
+			}]
+			rewards: [
+				{
+					id: "23FF16415CCE42D0"
+					type: "loot"
+					table_id: 5705109811401542117L
+				}
+				{
+					id: "5397B399C4B809FA"
+					type: "loot"
+					table_id: 3279900820427924797L
+				}
+			]
+		}
+		{
+			x: -6.0d
+			y: 2.0d
+			dependencies: ["69AB1127F08CF9AF"]
+			id: "681650BFCB5FAB99"
+			tasks: [{
+				id: "741AE8D08FA489AC"
+				type: "item"
+				item: "expandedstorage:wood_to_iron_conversion_kit"
+			}]
+			rewards: [
+				{
+					id: "30E37CB6143D000F"
+					type: "loot"
+					table_id: 5705109811401542117L
+				}
+				{
+					id: "3A4915238F32DF03"
+					type: "loot"
+					table_id: 3279900820427924797L
+				}
+			]
+		}
+		{
+			x: -7.5d
+			y: 2.0d
+			dependencies: ["681650BFCB5FAB99"]
+			id: "7E874B95B73BF8C9"
+			tasks: [{
+				id: "43D91FFAF4B1F208"
+				type: "item"
+				item: "expandedstorage:wood_to_gold_conversion_kit"
+			}]
+			rewards: [
+				{
+					id: "3FBD210979EAACAC"
+					type: "loot"
+					table_id: 5705109811401542117L
+				}
+				{
+					id: "1FB107A68BCBA487"
+					type: "loot"
+					table_id: 3279900820427924797L
+				}
+			]
+		}
+		{
+			x: -9.0d
+			y: 2.0d
+			dependencies: [
+				"681650BFCB5FAB99"
+				"7E874B95B73BF8C9"
+			]
+			id: "3C5D1046EFAD36BA"
+			tasks: [{
+				id: "3087B4D1101B1064"
+				type: "item"
+				item: "expandedstorage:wood_to_diamond_conversion_kit"
+			}]
+			rewards: [
+				{
+					id: "3E97180E24D1B860"
+					type: "loot"
+					table_id: 5705109811401542117L
+				}
+				{
+					id: "4394112BEE37CCB3"
+					type: "loot"
+					table_id: 3279900820427924797L
+				}
+			]
+		}
+		{
+			x: -10.5d
+			y: 2.0d
+			dependencies: [
+				"681650BFCB5FAB99"
+				"7E874B95B73BF8C9"
+				"3C5D1046EFAD36BA"
+			]
+			id: "78FE8B16C3C1E97A"
+			tasks: [{
+				id: "1B87F266262EEF51"
+				type: "item"
+				item: "expandedstorage:wood_to_obsidian_conversion_kit"
+			}]
+			rewards: [
+				{
+					id: "551CB6F00D645D12"
+					type: "loot"
+					table_id: 5705109811401542117L
+				}
+				{
+					id: "503DE6B6ADDBC398"
+					type: "loot"
+					table_id: 3279900820427924797L
+				}
+			]
+		}
+		{
+			x: -12.0d
+			y: 2.0d
+			dependencies: [
+				"681650BFCB5FAB99"
+				"7E874B95B73BF8C9"
+				"3C5D1046EFAD36BA"
+				"78FE8B16C3C1E97A"
+			]
+			id: "251645C3E2A8C3D1"
+			tasks: [{
+				id: "4C10439A6C2D1D5C"
+				type: "item"
+				item: "expandedstorage:wood_to_netherite_conversion_kit"
+			}]
+			rewards: [
+				{
+					id: "2804DC41DA4A4B93"
+					type: "loot"
+					table_id: 5705109811401542117L
+				}
+				{
+					id: "34AA71A28C2961D4"
+					type: "loot"
+					table_id: 3279900820427924797L
+				}
+			]
+		}
+		{
+			x: -3.0d
+			y: -2.5d
+			dependencies: ["2653D1693B46C3B5"]
+			id: "5768221DB01BD2B4"
+			tasks: [{
+				id: "19287B0DE3E8010C"
+				type: "item"
+				item: "expandedstorage:pumpkin_chest"
+			}]
+			rewards: [
+				{
+					id: "3F326E09E79F4ACA"
+					type: "loot"
+					table_id: 5705109811401542117L
+				}
+				{
+					id: "71B7E146E19E8550"
+					type: "loot"
+					table_id: 3279900820427924797L
+				}
+			]
+		}
+		{
+			x: -3.0d
+			y: -4.0d
+			dependencies: ["5768221DB01BD2B4"]
+			id: "16C0AEDFECF180E4"
+			tasks: [{
+				id: "789EF8BAF7A6C9AF"
+				type: "item"
+				item: "expandedstorage:christmas_chest"
+			}]
+			rewards: [
+				{
+					id: "1DBD5BD445D48FDE"
+					type: "loot"
+					table_id: 5705109811401542117L
+				}
+				{
+					id: "0901CF497D6A0365"
+					type: "loot"
+					table_id: 3279900820427924797L
+				}
+				{
+					id: "77C9C6747A05EE53"
+					type: "item"
+					item: "expandedstorage:green_mini_present"
+				}
+			]
+		}
+		{
+			title: "&fFinal Stage"
+			icon: {
+				id: "expandedstorage:chest_mutator"
+				Count: 1b
+				tag: {
+					mode: 0b
+				}
+			}
+			x: 1.5d
+			y: -18.5d
+			subtitle: "&cCongratulations!"
+			dependencies: [
+				"641A7CC36C079120"
+				"7EC97A554C71AB15"
+				"03193023DADEE6FE"
+				"500E0F0F20023EE9"
+				"4BCFC0C04400A96B"
+				"197D1396B147398C"
+			]
+			id: "7472E1CC7EF544DD"
+			tasks: [{
+				id: "4C1C5F285440EF75"
+				type: "checkmark"
+				title: "&6☑"
+			}]
+			rewards: [
+				{
+					id: "046C9C3DB8CE19F9"
+					type: "item"
+					item: "dankstorage:dank_7"
+				}
+				{
+					id: "6712BC320DA58E62"
+					type: "item"
+					item: "minecraft:ender_chest"
+				}
+				{
+					id: "346170AA12464600"
+					type: "item"
+					item: {
+						id: "inmis:endless_backpack"
+						Count: 1b
+						tag: { }
+					}
+				}
+				{
+					id: "0375CD3F533B2721"
+					type: "item"
+					item: "netherite_plus:netherite_beacon"
+				}
+				{
+					id: "59D501E7B80444A1"
+					type: "item"
+					item: "winged:heart_of_the_sky_25"
+				}
+				{
+					id: "3AB7DAF7CD5D8783"
+					type: "loot"
+					table_id: 5705109811401542117L
+				}
+				{
+					id: "72D85AF77152A78A"
+					type: "loot"
+					table_id: 3279900820427924797L
+				}
+			]
+		}
+		{
+			x: -6.0d
+			y: -1.0d
+			dependencies: ["64A7885BB5BBCB7B"]
+			id: "704AF34A79286314"
+			tasks: [{
+				id: "39A4785E20A074C4"
+				type: "item"
+				item: "expandedstorage:old_iron_chest"
+			}]
+			rewards: [
+				{
+					id: "739B00B99FDDC1CC"
+					type: "loot"
+					table_id: 5705109811401542117L
+				}
+				{
+					id: "0BD30C595B552ED9"
+					type: "loot"
+					table_id: 3279900820427924797L
+				}
+			]
+		}
+		{
+			x: -7.5d
+			y: -1.0d
+			dependencies: ["67324C172A164A73"]
+			id: "31B2296487BC5076"
+			tasks: [{
+				id: "570E111EBF10D7D1"
+				type: "item"
+				item: "expandedstorage:old_gold_chest"
+			}]
+			rewards: [
+				{
+					id: "1E3F6B5851994F18"
+					type: "loot"
+					table_id: 5705109811401542117L
+				}
+				{
+					id: "4D0CC6DDB72DCE9C"
+					type: "loot"
+					table_id: 3279900820427924797L
+				}
+			]
+		}
+		{
+			x: -9.0d
+			y: -1.0d
+			dependencies: ["0C9498641E627D93"]
+			id: "02461FA99B0E00E6"
+			tasks: [{
+				id: "1DB2DB77DE445A1F"
+				type: "item"
+				item: "expandedstorage:old_diamond_chest"
+			}]
+			rewards: [
+				{
+					id: "624F32BDF70B55FC"
+					type: "loot"
+					table_id: 5705109811401542117L
+				}
+				{
+					id: "43B801A60BFD9C57"
+					type: "loot"
+					table_id: 3279900820427924797L
+				}
+			]
+		}
+		{
+			x: -10.5d
+			y: -1.0d
+			dependencies: ["22609DBA0548D647"]
+			id: "7DAA518693BF5EBB"
+			tasks: [{
+				id: "369636C3632BFEEE"
+				type: "item"
+				item: "expandedstorage:old_obsidian_chest"
+			}]
+			rewards: [
+				{
+					id: "4884DEFC5B1AFD0A"
+					type: "loot"
+					table_id: 5705109811401542117L
+				}
+				{
+					id: "5C82A5CE919B5ED9"
+					type: "loot"
+					table_id: 3279900820427924797L
+				}
+			]
+		}
+		{
+			x: -12.0d
+			y: -1.0d
+			dependencies: ["253FB570E86FC287"]
+			id: "32501CAD716810A2"
+			tasks: [{
+				id: "52E96C4E28FA0698"
+				type: "item"
+				item: "expandedstorage:old_netherite_chest"
+			}]
+			rewards: [
+				{
+					id: "1D2AD7F38F74733E"
+					type: "loot"
+					table_id: 5705109811401542117L
+				}
+				{
+					id: "5D99C126C10B23C3"
+					type: "loot"
+					table_id: 3279900820427924797L
+				}
+			]
+		}
+		{
+			x: -3.0d
+			y: 0.5d
+			dependencies: ["2653D1693B46C3B5"]
+			id: "69AB1127F08CF9AF"
+			tasks: [{
+				id: "198D1D0828D2B859"
+				type: "item"
+				item: "expandedstorage:wood_chest"
+			}]
+			rewards: [
+				{
+					id: "57806F58FBE578DE"
+					type: "loot"
+					table_id: 5705109811401542117L
+				}
+				{
+					id: "7986A6976380221D"
+					type: "loot"
+					table_id: 3279900820427924797L
+				}
+			]
+		}
+		{
+			x: -6.0d
+			y: 3.5d
+			dependencies: ["681650BFCB5FAB99"]
+			id: "05EDDF910D97651A"
+			tasks: [{
+				id: "77147E39162FE068"
+				type: "item"
+				item: "expandedstorage:iron_to_gold_conversion_kit"
+			}]
+			rewards: [
+				{
+					id: "377A4D82A8F9DC83"
+					type: "loot"
+					table_id: 5705109811401542117L
+				}
+				{
+					id: "27BE7FADF79F4501"
+					type: "loot"
+					table_id: 3279900820427924797L
+				}
+			]
+		}
+		{
+			x: -6.0d
+			y: 5.0d
+			dependencies: [
+				"681650BFCB5FAB99"
+				"05EDDF910D97651A"
+			]
+			id: "4824F46D83BF0D0F"
+			tasks: [{
+				id: "61C4B92F9E1ED161"
+				type: "item"
+				item: "expandedstorage:iron_to_diamond_conversion_kit"
+			}]
+			rewards: [
+				{
+					id: "7CE04A6D01CB147F"
+					type: "loot"
+					table_id: 5705109811401542117L
+				}
+				{
+					id: "5ABBCBBFE5F42568"
+					type: "loot"
+					table_id: 3279900820427924797L
+				}
+			]
+		}
+		{
+			x: -6.0d
+			y: 6.5d
+			dependencies: [
+				"681650BFCB5FAB99"
+				"05EDDF910D97651A"
+				"4824F46D83BF0D0F"
+			]
+			id: "224FE4B58ADCF2D8"
+			tasks: [{
+				id: "7EF590403951AA59"
+				type: "item"
+				item: "expandedstorage:iron_to_obsidian_conversion_kit"
+			}]
+			rewards: [
+				{
+					id: "72A715A0AA393FB9"
+					type: "loot"
+					table_id: 5705109811401542117L
+				}
+				{
+					id: "0330CFCCB58D8573"
+					type: "loot"
+					table_id: 3279900820427924797L
+				}
+			]
+		}
+		{
+			x: -6.0d
+			y: 8.0d
+			dependencies: [
+				"681650BFCB5FAB99"
+				"05EDDF910D97651A"
+				"4824F46D83BF0D0F"
+				"224FE4B58ADCF2D8"
+			]
+			id: "0F2AB2680D014303"
+			tasks: [{
+				id: "696E0460E276363F"
+				type: "item"
+				item: "expandedstorage:iron_to_netherite_conversion_kit"
+			}]
+			rewards: [
+				{
+					id: "5DEE512E6EBB1AAD"
+					type: "loot"
+					table_id: 5705109811401542117L
+				}
+				{
+					id: "5E39BF0370D17484"
+					type: "loot"
+					table_id: 3279900820427924797L
+				}
+			]
+		}
+		{
+			x: -7.5d
+			y: 3.5d
+			dependencies: ["7E874B95B73BF8C9"]
+			id: "2B3AFD8C876B21C8"
+			tasks: [{
+				id: "01BA46FF126C3898"
+				type: "item"
+				item: "expandedstorage:gold_to_diamond_conversion_kit"
+			}]
+			rewards: [
+				{
+					id: "5578B18E50747005"
+					type: "loot"
+					table_id: 5705109811401542117L
+				}
+				{
+					id: "4C98ACAE44FC5104"
+					type: "loot"
+					table_id: 3279900820427924797L
+				}
+			]
+		}
+		{
+			x: -7.5d
+			y: 5.0d
+			dependencies: [
+				"7E874B95B73BF8C9"
+				"2B3AFD8C876B21C8"
+			]
+			id: "7D9F8B367E7C3302"
+			tasks: [{
+				id: "7760E56F004FF02F"
+				type: "item"
+				item: "expandedstorage:gold_to_obsidian_conversion_kit"
+			}]
+			rewards: [
+				{
+					id: "01F9B97A0E74DD00"
+					type: "loot"
+					table_id: 5705109811401542117L
+				}
+				{
+					id: "46259F8211D6DBB1"
+					type: "loot"
+					table_id: 3279900820427924797L
+				}
+			]
+		}
+		{
+			x: -9.0d
+			y: 3.5d
+			dependencies: ["3C5D1046EFAD36BA"]
+			id: "1B01E22542E870CF"
+			tasks: [{
+				id: "5C3C7ED210D1B145"
+				type: "item"
+				item: "expandedstorage:diamond_to_obsidian_conversion_kit"
+			}]
+			rewards: [
+				{
+					id: "6894F194911AA16D"
+					type: "loot"
+					table_id: 5705109811401542117L
+				}
+				{
+					id: "33FA83D113800380"
+					type: "loot"
+					table_id: 3279900820427924797L
+				}
+			]
+		}
+		{
+			x: -9.0d
+			y: 5.0d
+			dependencies: [
+				"3C5D1046EFAD36BA"
+				"1B01E22542E870CF"
+			]
+			id: "1DB4A9138C7E502E"
+			tasks: [{
+				id: "42CD53657D528237"
+				type: "item"
+				item: "expandedstorage:diamond_to_netherite_conversion_kit"
+			}]
+			rewards: [
+				{
+					id: "2F8603BAC6E66BE9"
+					type: "loot"
+					table_id: 5705109811401542117L
+				}
+				{
+					id: "6499A8F89A72D0C8"
+					type: "loot"
+					table_id: 3279900820427924797L
+				}
+			]
+		}
+		{
+			x: -10.5d
+			y: 3.5d
+			dependencies: ["78FE8B16C3C1E97A"]
+			id: "0A374E2AD7FCE7A7"
+			tasks: [{
+				id: "06AD90B266F8933A"
+				type: "item"
+				item: "expandedstorage:obsidian_to_netherite_conversion_kit"
+			}]
+			rewards: [
+				{
+					id: "5E3194BAF3C79191"
+					type: "loot"
+					table_id: 5705109811401542117L
+				}
+				{
+					id: "5ECFF02CFFFC121D"
+					type: "loot"
+					table_id: 3279900820427924797L
+				}
+			]
+		}
+		{
+			x: 6.5d
+			y: -4.0d
+			dependencies: ["5D934CB84202A8DF"]
+			id: "22E6238969E2951C"
+			tasks: [{
+				id: "46FF6B69D3D6A95C"
+				type: "item"
+				item: "adorn:oak_drawer"
+			}]
+			rewards: [
+				{
+					id: "6DC507A016E7586D"
+					type: "loot"
+					table_id: 5705109811401542117L
+				}
+				{
+					id: "66039A33A4F14AA2"
+					type: "loot"
+					table_id: 3279900820427924797L
+				}
+			]
+		}
+		{
+			x: 6.5d
+			y: -5.5d
+			dependencies: ["22E6238969E2951C"]
+			id: "14414346B80F6F72"
+			tasks: [{
+				id: "2B9513B42ECE4D33"
+				type: "item"
+				item: "adorn:spruce_drawer"
+			}]
+			rewards: [
+				{
+					id: "7E9C0195B03DAAB7"
+					type: "loot"
+					table_id: 5705109811401542117L
+				}
+				{
+					id: "4F73FB517D35BD2A"
+					type: "loot"
+					table_id: 3279900820427924797L
+				}
+			]
+		}
+		{
+			x: 6.5d
+			y: -7.0d
+			dependencies: [
+				"22E6238969E2951C"
+				"14414346B80F6F72"
+			]
+			id: "002D889CDBB61C96"
+			tasks: [{
+				id: "791AAB87EECCD644"
+				type: "item"
+				item: "adorn:birch_drawer"
+			}]
+			rewards: [
+				{
+					id: "44364C7D22418DA1"
+					type: "loot"
+					table_id: 5705109811401542117L
+				}
+				{
+					id: "515E8EC070A52ABA"
+					type: "loot"
+					table_id: 3279900820427924797L
+				}
+			]
+		}
+		{
+			x: 6.5d
+			y: -8.5d
+			dependencies: [
+				"14414346B80F6F72"
+				"22E6238969E2951C"
+				"002D889CDBB61C96"
+			]
+			id: "1486BD5B080E7417"
+			tasks: [{
+				id: "2BFA3749168F1D79"
+				type: "item"
+				item: "adorn:jungle_drawer"
+			}]
+			rewards: [
+				{
+					id: "523A4C98DFD5ABFB"
+					type: "loot"
+					table_id: 5705109811401542117L
+				}
+				{
+					id: "3A33C2F61AEDC80D"
+					type: "loot"
+					table_id: 3279900820427924797L
+				}
+			]
+		}
+		{
+			x: 6.5d
+			y: -10.0d
+			dependencies: [
+				"22E6238969E2951C"
+				"14414346B80F6F72"
+				"002D889CDBB61C96"
+				"1486BD5B080E7417"
+			]
+			id: "32ED5AA956CEC055"
+			tasks: [{
+				id: "64876E9511C39B5E"
+				type: "item"
+				item: "adorn:acacia_drawer"
+			}]
+			rewards: [
+				{
+					id: "2E9A10BE984EEBE5"
+					type: "loot"
+					table_id: 5705109811401542117L
+				}
+				{
+					id: "1AC43FE5430C1D10"
+					type: "loot"
+					table_id: 3279900820427924797L
+				}
+			]
+		}
+		{
+			x: 6.5d
+			y: -14.5d
+			dependencies: [
+				"32ED5AA956CEC055"
+				"002D889CDBB61C96"
+				"1486BD5B080E7417"
+				"22E6238969E2951C"
+				"14414346B80F6F72"
+			]
+			id: "197D1396B147398C"
+			tasks: [{
+				id: "33E72CCC9C178CBD"
+				type: "item"
+				item: "adorn:dark_oak_drawer"
+			}]
+			rewards: [
+				{
+					id: "4DB131D59F17208A"
+					type: "loot"
+					table_id: 5705109811401542117L
+				}
+				{
+					id: "78437C1F2DA86D32"
+					type: "loot"
+					table_id: 3279900820427924797L
+				}
+				{
+					id: "4B8160C4E9C2D4B9"
+					type: "item"
+					item: "expandedstorage:lavender_mini_present"
+				}
+			]
+		}
+		{
+			title: "&4Congratulations!"
+			icon: "winged:wing_random_creative_flight"
+			x: -15.0d
+			y: 0.5d
+			subtitle: "You Complete all the \"&fExpandedStorage&r\" ways!"
+			dependencies: [
+				"32501CAD716810A2"
+				"253FB570E86FC287"
+				"251645C3E2A8C3D1"
+			]
+			id: "2F230646D30C63CA"
+			tasks: [{
+				id: "6C8E9372FA113121"
+				type: "checkmark"
+				title: "&6☑"
+			}]
+			rewards: [
+				{
+					id: "6753FE5ED8B95FE0"
+					type: "loot"
+					table_id: 5705109811401542117L
+				}
+				{
+					id: "23E31F2D5D89EDB0"
+					type: "loot"
+					table_id: 3279900820427924797L
+				}
+				{
+					id: "0164F057DDD0B277"
+					type: "item"
+					item: "expandedstorage:pink_amethyst_mini_present_with_sparrow"
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: 0.5d
+			dependencies: ["5E7001E507253EE7"]
+			id: "3103E9CE1949F8FA"
+			tasks: [{
+				id: "2E165302DCB92C8F"
+				type: "item"
+				item: "minecraft:black_concrete"
+				count: 8L
+			}]
+			rewards: [
+				{
+					id: "35017CF5F0E4EF88"
+					type: "loot"
+					table_id: 5705109811401542117L
+				}
+				{
+					id: "69994D5B0B4A774D"
+					type: "loot"
+					table_id: 3279900820427924797L
+				}
+			]
+		}
+		{
+			x: -6.0d
+			y: -5.5d
+			dependencies: ["2FB14CED40EB11F0"]
+			id: "75EB40439CA8612E"
+			tasks: [{
+				id: "44FEF95D21DF87E1"
+				type: "item"
+				item: "expandedstorage:vanilla_wood_mini_chest_with_sparrow"
+			}]
+			rewards: [{
+				id: "2DEFD8C301F4E35D"
+				type: "loot"
+				table_id: 3279900820427924797L
+			}]
+		}
+		{
+			x: -6.0d
+			y: -4.0d
+			dependencies: ["2FB14CED40EB11F0"]
+			id: "22DFEF2705DE7A99"
+			tasks: [{
+				id: "381E682CDC29C265"
+				type: "item"
+				item: "expandedstorage:vanilla_wood_mini_chest"
+			}]
+			rewards: [{
+				id: "53E3E6092B15BE20"
+				type: "loot"
+				table_id: 3279900820427924797L
+			}]
+		}
+		{
+			x: -4.5d
+			y: -2.5d
+			dependencies: ["5768221DB01BD2B4"]
+			id: "797143B5D6009EAF"
+			tasks: [{
+				id: "2666E0B04735651D"
+				type: "item"
+				item: "expandedstorage:pumpkin_mini_chest"
+			}]
+			rewards: [{
+				id: "47A06BF24FCD1E15"
+				type: "loot"
+				table_id: 1697359609362440165L
+			}]
+		}
+		{
+			x: -6.0d
+			y: -2.5d
+			dependencies: ["797143B5D6009EAF"]
+			id: "2FB14CED40EB11F0"
+			tasks: [{
+				id: "199B18153B6A9921"
+				type: "item"
+				item: "expandedstorage:pumpkin_mini_chest_with_sparrow"
+			}]
+			rewards: [{
+				id: "7ABD052246668ACC"
+				type: "loot"
+				table_id: 5616614316702311893L
+			}]
+		}
+		{
+			x: -7.0d
+			y: -7.5d
+			dependencies: ["75EB40439CA8612E"]
+			id: "413D656C8D4CC34D"
+			tasks: [{
+				id: "658A35B491F545AD"
+				type: "item"
+				item: "upgradedechests:spatialchest"
+			}]
+			rewards: [{
+				id: "5D88791E5661BA33"
+				type: "loot"
+				table_id: 3133982820876343405L
+			}]
+		}
+		{
+			x: -6.0d
+			y: -9.0d
+			dependencies: [
+				"1F3FADFB61F3FCB8"
+				"413D656C8D4CC34D"
+			]
+			id: "1CFED30DC0D986EC"
+			tasks: [{
+				id: "266C435ABCA4AEF8"
+				type: "item"
+				item: "kibe:entangled_chest"
+			}]
+			rewards: [
+				{
+					id: "3F75FA6453440046"
+					type: "loot"
+					table_id: 7401631859612543991L
+				}
+				{
+					id: "05DBF324391B0ABD"
+					type: "loot"
+					table_id: 3133982820876343405L
+				}
+				{
+					id: "2018EFDEB48B8B4C"
+					type: "item"
+					item: "modern_industrialization:tank_bronze"
+				}
+			]
+		}
+		{
+			x: -5.0d
+			y: -7.5d
+			dependencies: ["75EB40439CA8612E"]
+			id: "1F3FADFB61F3FCB8"
+			tasks: [{
+				id: "4BC59B1135BEA48B"
+				type: "item"
+				item: "upgradedechests:riftchest"
+			}]
+			rewards: [{
+				id: "45DBC87625D4F211"
+				type: "loot"
+				table_id: 5705109811401542117L
+			}]
+		}
+	]
+}

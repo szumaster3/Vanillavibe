@@ -1,0 +1,8 @@
+{
+	chapter_groups: [
+		{ id: "293A0E7F313C58DC", title: "Chapter 1" }
+		{ id: "13E5EF03951BCD7C", title: "Chapter 2" }
+		{ id: "784CED2B68085FF7", title: "Chapter 3" }
+		{ id: "67AEA43179997299", title: "Chapter 4" }
+	]
+}

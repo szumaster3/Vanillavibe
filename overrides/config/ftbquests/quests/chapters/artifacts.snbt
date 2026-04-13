@@ -1,0 +1,3082 @@
+{
+	id: "3FC178A75C74C74E"
+	group: "293A0E7F313C58DC"
+	order_index: 3
+	filename: "artifacts"
+	title: "&fTrinkets"
+	icon: {
+		id: "artifacts:bunny_hoppers"
+		Count: 1b
+		cardinal_components: {
+			"artifacts:trinket_enabled": {
+				isEnabled: 1b
+			}
+		}
+	}
+	default_quest_shape: "gear"
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: -1.5999999999999992d
+			y: -1.7000000000000002d
+			dependencies: ["42C95D5F2D5D2762"]
+			id: "4E62DA172CD2630B"
+			tasks: [{
+				id: "672D06166C87992B"
+				type: "item"
+				item: "ringsofascension:ring_fire_resistance"
+			}]
+			rewards: [
+				{
+					id: "1D9940129C872409"
+					type: "loot"
+					table_id: 3133982820876343405L
+				}
+				{
+					id: "0E42375AEEFBBFC5"
+					type: "loot"
+					table_id: 4023534927821043910L
+				}
+				{
+					id: "6ADA96E3DF04E613"
+					type: "loot"
+					table_id: 6908501239918343164L
+				}
+			]
+		}
+		{
+			x: -0.0999999999999992d
+			y: -2.8000000000000007d
+			dependencies: ["70218431B66A6443"]
+			id: "7FD86A9923B2633C"
+			tasks: [{
+				id: "632290010255579B"
+				type: "item"
+				item: "ringsofascension:ring_dolphin"
+			}]
+			rewards: [
+				{
+					id: "4C9B5365D4D2AEE5"
+					type: "loot"
+					table_id: 3133982820876343405L
+				}
+				{
+					id: "2D4C877C3450201A"
+					type: "loot"
+					table_id: 4023534927821043910L
+				}
+				{
+					id: "2B6F7E380A1725F9"
+					type: "loot"
+					table_id: 6908501239918343164L
+				}
+			]
+		}
+		{
+			x: 3.0d
+			y: -6.0d
+			dependencies: ["600656E9285DBE88"]
+			id: "51916CA8E46D9E22"
+			tasks: [{
+				id: "3341A4A72B23C05D"
+				type: "item"
+				item: "ringsofascension:ring_invisibility"
+			}]
+			rewards: [
+				{
+					id: "7349BA77391486D4"
+					type: "loot"
+					table_id: 3133982820876343405L
+				}
+				{
+					id: "56F5C7B21EB31539"
+					type: "loot"
+					table_id: 4023534927821043910L
+				}
+				{
+					id: "0E7EDB7E29A40719"
+					type: "loot"
+					table_id: 6908501239918343164L
+				}
+			]
+		}
+		{
+			x: 2.900000000000001d
+			y: -3.9000000000000004d
+			dependencies: ["6F026F58A6486AD4"]
+			id: "600656E9285DBE88"
+			tasks: [{
+				id: "567E8AF187E15028"
+				type: "item"
+				item: "ringsofascension:ring_jump_boost"
+			}]
+			rewards: [
+				{
+					id: "1F21F1FBFB6F8C01"
+					type: "loot"
+					table_id: 3133982820876343405L
+				}
+				{
+					id: "4B32AFC88B53B9F9"
+					type: "loot"
+					table_id: 4023534927821043910L
+				}
+				{
+					id: "7B7E0431F9600975"
+					type: "loot"
+					table_id: 6908501239918343164L
+				}
+			]
+		}
+		{
+			x: 1.5000000000000004d
+			y: -2.8000000000000007d
+			dependencies: ["10C99C171EEB206E"]
+			id: "782EF81E72E54D93"
+			tasks: [{
+				id: "2BB25C2938F0BE41"
+				type: "item"
+				item: "ringsofascension:ring_luck"
+			}]
+			rewards: [
+				{
+					id: "0DF1DD754E22E878"
+					type: "loot"
+					table_id: 3133982820876343405L
+				}
+				{
+					id: "7B70759BB77B7381"
+					type: "loot"
+					table_id: 4023534927821043910L
+				}
+				{
+					id: "290D7295CF41BFC4"
+					type: "loot"
+					table_id: 6908501239918343164L
+				}
+			]
+		}
+		{
+			x: 1.5000000000000004d
+			y: -1.7000000000000002d
+			dependencies: ["42C95D5F2D5D2762"]
+			id: "10C99C171EEB206E"
+			tasks: [{
+				id: "67474E56872E3EF5"
+				type: "item"
+				item: "ringsofascension:ring_mining"
+			}]
+			rewards: [
+				{
+					id: "47282269FD48CC9A"
+					type: "loot"
+					table_id: 3133982820876343405L
+				}
+				{
+					id: "37992284F7D24335"
+					type: "loot"
+					table_id: 4023534927821043910L
+				}
+				{
+					id: "46745E45B1343318"
+					type: "loot"
+					table_id: 6908501239918343164L
+				}
+			]
+		}
+		{
+			x: 2.900000000000001d
+			y: -2.8000000000000007d
+			dependencies: ["383FD280D8AFAD4D"]
+			id: "6F026F58A6486AD4"
+			tasks: [{
+				id: "19468A1EF2A635EF"
+				type: "item"
+				item: "ringsofascension:ring_night_vision"
+			}]
+			rewards: [
+				{
+					id: "21D7D52CDD7D9610"
+					type: "loot"
+					table_id: 3133982820876343405L
+				}
+				{
+					id: "6D46DEB22E28E8F5"
+					type: "loot"
+					table_id: 4023534927821043910L
+				}
+				{
+					id: "5602EE9B1174DB98"
+					type: "loot"
+					table_id: 6908501239918343164L
+				}
+			]
+		}
+		{
+			x: 1.5000000000000004d
+			y: -5.0d
+			dependencies: ["74C6B376CD62A863"]
+			id: "6DD08505740695AA"
+			tasks: [{
+				id: "6C2FBD0842813463"
+				type: "item"
+				item: "ringsofascension:ring_regeneration"
+			}]
+			rewards: [
+				{
+					id: "16EC8986AD95B765"
+					type: "loot"
+					table_id: 3133982820876343405L
+				}
+				{
+					id: "6647F5D63DA820C2"
+					type: "loot"
+					table_id: 4023534927821043910L
+				}
+				{
+					id: "735CAE5D19E95FA4"
+					type: "loot"
+					table_id: 6908501239918343164L
+				}
+			]
+		}
+		{
+			x: 2.900000000000001d
+			y: -1.7000000000000002d
+			dependencies: ["42C95D5F2D5D2762"]
+			id: "383FD280D8AFAD4D"
+			tasks: [{
+				id: "14F94DEDBEF35683"
+				type: "item"
+				item: "ringsofascension:ring_slow_falling"
+			}]
+			rewards: [
+				{
+					id: "052D5CF84AB5CEDC"
+					type: "loot"
+					table_id: 3133982820876343405L
+				}
+				{
+					id: "7FAE709200A106ED"
+					type: "loot"
+					table_id: 4023534927821043910L
+				}
+				{
+					id: "22218F0E4D360077"
+					type: "loot"
+					table_id: 6908501239918343164L
+				}
+			]
+		}
+		{
+			x: -2.9d
+			y: -1.7000000000000002d
+			dependencies: ["42C95D5F2D5D2762"]
+			id: "23E413E2C086E512"
+			tasks: [{
+				id: "3FCF34C313B83B42"
+				type: "item"
+				item: "ringsofascension:ring_speed"
+			}]
+			rewards: [
+				{
+					id: "1872A53D3A5AD479"
+					type: "loot"
+					table_id: 3133982820876343405L
+				}
+				{
+					id: "0086993FA09F21B4"
+					type: "loot"
+					table_id: 4023534927821043910L
+				}
+				{
+					id: "5F4C1F9A922FAE91"
+					type: "loot"
+					table_id: 6908501239918343164L
+				}
+			]
+		}
+		{
+			x: -2.9d
+			y: -2.8000000000000007d
+			dependencies: ["23E413E2C086E512"]
+			id: "44C4EC7C814C2B25"
+			tasks: [{
+				id: "14C2C11B3F892FC0"
+				type: "item"
+				item: "ringsofascension:ring_strength"
+			}]
+			rewards: [
+				{
+					id: "412837CA14BBE440"
+					type: "loot"
+					table_id: 3133982820876343405L
+				}
+				{
+					id: "11B4CD7DE8D4F8E7"
+					type: "loot"
+					table_id: 4023534927821043910L
+				}
+				{
+					id: "77F2A299E8B02D39"
+					type: "loot"
+					table_id: 6908501239918343164L
+				}
+			]
+		}
+		{
+			x: -0.0999999999999992d
+			y: -3.9000000000000004d
+			dependencies: ["7FD86A9923B2633C"]
+			id: "2AEC1DFF63C7152F"
+			tasks: [{
+				id: "71590CB4EC204823"
+				type: "item"
+				item: "ringsofascension:ring_water_breathing"
+			}]
+			rewards: [
+				{
+					id: "432A799F107D38A6"
+					type: "loot"
+					table_id: 3133982820876343405L
+				}
+				{
+					id: "070E970469B790ED"
+					type: "loot"
+					table_id: 4023534927821043910L
+				}
+				{
+					id: "50B3751B572CC8E2"
+					type: "loot"
+					table_id: 6908501239918343164L
+				}
+			]
+		}
+		{
+			x: -1.5999999999999992d
+			y: -3.9000000000000004d
+			dependencies: ["45ACE20B70D22342"]
+			id: "131CF574BE8D3BB1"
+			tasks: [{
+				id: "6282258E4FA98AAB"
+				type: "item"
+				item: "ringsofascension:ring_poison_resistance"
+			}]
+			rewards: [
+				{
+					id: "554E48F98A4C031B"
+					type: "loot"
+					table_id: 3133982820876343405L
+				}
+				{
+					id: "5317FF74BFA64381"
+					type: "loot"
+					table_id: 4023534927821043910L
+				}
+				{
+					id: "3E6E034AEA856B86"
+					type: "loot"
+					table_id: 6908501239918343164L
+				}
+			]
+		}
+		{
+			x: -1.5999999999999992d
+			y: -6.1000000000000005d
+			description: [""]
+			dependencies: ["522EDF51E9D5ECA0"]
+			id: "2890B8A0D0805DDF"
+			tasks: [{
+				id: "30FEA2449ADA96B9"
+				type: "item"
+				item: "ringsofascension:ring_wither"
+			}]
+			rewards: [
+				{
+					id: "539BDBD22B6FE9FC"
+					type: "loot"
+					table_id: 3133982820876343405L
+				}
+				{
+					id: "1A7AA034AC9F0402"
+					type: "loot"
+					table_id: 4023534927821043910L
+				}
+				{
+					id: "761CE7C35DB1AA5D"
+					type: "loot"
+					table_id: 6908501239918343164L
+				}
+			]
+		}
+		{
+			x: -2.9d
+			y: -5.0d
+			dependencies: ["4E5A8B46307FFB4F"]
+			id: "3BF67A8ED92D6BED"
+			tasks: [{
+				id: "3E33AB9C18510B5B"
+				type: "item"
+				item: "ringsofascension:ring_magnetism"
+			}]
+			rewards: [
+				{
+					id: "7F3C7140A3058994"
+					type: "loot"
+					table_id: 3133982820876343405L
+				}
+				{
+					id: "3384864D8EC7E458"
+					type: "loot"
+					table_id: 4023534927821043910L
+				}
+				{
+					id: "252A87C87A21AF2B"
+					type: "loot"
+					table_id: 6908501239918343164L
+				}
+			]
+		}
+		{
+			x: 1.5000000000000004d
+			y: -3.9000000000000004d
+			dependencies: ["782EF81E72E54D93"]
+			id: "74C6B376CD62A863"
+			tasks: [{
+				id: "18CF27E0FE037FF9"
+				type: "item"
+				item: "ringsofascension:ring_experience"
+			}]
+			rewards: [
+				{
+					id: "4B7976DED0644A68"
+					type: "loot"
+					table_id: 3133982820876343405L
+				}
+				{
+					id: "207BA3D8836FF44C"
+					type: "loot"
+					table_id: 4023534927821043910L
+				}
+				{
+					id: "14F4C031CD74DD66"
+					type: "loot"
+					table_id: 6908501239918343164L
+				}
+			]
+		}
+		{
+			x: 1.5000000000000004d
+			y: -6.1000000000000005d
+			dependencies: ["6DD08505740695AA"]
+			id: "5F8EF225F9BA16FE"
+			tasks: [{
+				id: "54B75BF2034C9AC0"
+				type: "item"
+				item: "ringsofascension:ring_growth"
+			}]
+			rewards: [
+				{
+					id: "161749D1645AE02A"
+					type: "loot"
+					table_id: 3133982820876343405L
+				}
+				{
+					id: "33BF430EE13383C3"
+					type: "loot"
+					table_id: 4023534927821043910L
+				}
+				{
+					id: "72F7F2EE31DE1C1E"
+					type: "loot"
+					table_id: 6908501239918343164L
+				}
+			]
+		}
+		{
+			x: -2.9d
+			y: -3.9000000000000004d
+			dependencies: ["44C4EC7C814C2B25"]
+			id: "4E5A8B46307FFB4F"
+			tasks: [{
+				id: "5D2D0062085217CC"
+				type: "item"
+				item: "ringsofascension:ring_health"
+			}]
+			rewards: [
+				{
+					id: "6967EA9C66C09F7D"
+					type: "loot"
+					table_id: 3133982820876343405L
+				}
+				{
+					id: "3A3EE6F351063CAC"
+					type: "loot"
+					table_id: 4023534927821043910L
+				}
+				{
+					id: "214E15AA3C115EC2"
+					type: "loot"
+					table_id: 6908501239918343164L
+				}
+			]
+		}
+		{
+			x: -1.5999999999999992d
+			y: -2.8000000000000007d
+			dependencies: ["4E62DA172CD2630B"]
+			id: "45ACE20B70D22342"
+			tasks: [{
+				id: "47A2E747279A220F"
+				type: "item"
+				item: "ringsofascension:ring_knockback_resistance"
+			}]
+			rewards: [
+				{
+					id: "39C97B507221AB53"
+					type: "loot"
+					table_id: 3133982820876343405L
+				}
+				{
+					id: "2DC282AE742A0370"
+					type: "loot"
+					table_id: 4023534927821043910L
+				}
+				{
+					id: "52287F92AB1980D9"
+					type: "loot"
+					table_id: 6908501239918343164L
+				}
+			]
+		}
+		{
+			x: -0.0999999999999992d
+			y: -5.0d
+			dependencies: ["2AEC1DFF63C7152F"]
+			id: "6F448581B85F3CBF"
+			tasks: [{
+				id: "3278162FA2EDD4E7"
+				type: "item"
+				item: "ringsofascension:ring_sponge"
+			}]
+			rewards: [
+				{
+					id: "6779733182E42D1A"
+					type: "loot"
+					table_id: 3133982820876343405L
+				}
+				{
+					id: "23BD249654E397BF"
+					type: "loot"
+					table_id: 4023534927821043910L
+				}
+				{
+					id: "1831D34CD78B6E4E"
+					type: "loot"
+					table_id: 6908501239918343164L
+				}
+			]
+		}
+		{
+			x: -0.0999999999999992d
+			y: -1.7000000000000002d
+			dependencies: ["42C95D5F2D5D2762"]
+			id: "70218431B66A6443"
+			tasks: [{
+				id: "1B1C2555773118B5"
+				type: "item"
+				item: "ringsofascension:ring_water_walking"
+			}]
+			rewards: [
+				{
+					id: "4DF0231B46DDF4BB"
+					type: "loot"
+					table_id: 3133982820876343405L
+				}
+				{
+					id: "262C4CC367681B5A"
+					type: "loot"
+					table_id: 4023534927821043910L
+				}
+				{
+					id: "370FDFF4A39C0297"
+					type: "loot"
+					table_id: 6908501239918343164L
+				}
+			]
+		}
+		{
+			x: -2.9d
+			y: -6.100000000000001d
+			dependencies: ["3BF67A8ED92D6BED"]
+			id: "2B1E29BF084BEB8F"
+			tasks: [{
+				id: "58FEC69F52628825"
+				type: "item"
+				item: "ringsofascension:ring_undying"
+			}]
+			rewards: [
+				{
+					id: "20C264AB4A578A97"
+					type: "loot"
+					table_id: 3133982820876343405L
+				}
+				{
+					id: "6D9EE476152BF729"
+					type: "loot"
+					table_id: 4023534927821043910L
+				}
+				{
+					id: "11279CC8B95C64CB"
+					type: "loot"
+					table_id: 6908501239918343164L
+				}
+			]
+		}
+		{
+			x: 4.9d
+			y: -8.2d
+			id: "0FFFF12729C10E95"
+			tasks: [{
+				id: "03930EA72D38D7BE"
+				type: "item"
+				item: "artifacts:umbrella"
+			}]
+			rewards: [
+				{
+					id: "2D2FB726D45C1C4D"
+					type: "loot"
+					table_id: 3133982820876343405L
+				}
+				{
+					id: "42ADDE56091072DA"
+					type: "loot"
+					table_id: 4023534927821043910L
+				}
+				{
+					id: "169360B130457BC8"
+					type: "loot"
+					table_id: 6908501239918343164L
+				}
+			]
+		}
+		{
+			x: 10.4d
+			y: -7.199999999999998d
+			id: "56B586DBDA92D931"
+			tasks: [{
+				id: "6F5DE90A8EC2C9C5"
+				type: "item"
+				item: "artifacts:everlasting_beef"
+			}]
+			rewards: [
+				{
+					id: "106710FA05972474"
+					type: "loot"
+					table_id: 3133982820876343405L
+				}
+				{
+					id: "449D2B47DEE9FF4F"
+					type: "loot"
+					table_id: 4023534927821043910L
+				}
+				{
+					id: "26C71CA83F377893"
+					type: "loot"
+					table_id: 6908501239918343164L
+				}
+			]
+		}
+		{
+			x: 9.4d
+			y: -7.199999999999998d
+			dependencies: ["56B586DBDA92D931"]
+			id: "26454051972475E5"
+			tasks: [{
+				id: "08B1840DF7BF0F6A"
+				type: "item"
+				item: "artifacts:eternal_steak"
+			}]
+			rewards: [
+				{
+					id: "66CBC5C11D8C0683"
+					type: "loot"
+					table_id: 3133982820876343405L
+				}
+				{
+					id: "2A6BA95254746786"
+					type: "loot"
+					table_id: 4023534927821043910L
+				}
+				{
+					id: "64A49A388645DDF6"
+					type: "loot"
+					table_id: 6908501239918343164L
+				}
+			]
+		}
+		{
+			x: 10.4d
+			y: -8.2d
+			id: "1C8E31A22E33F888"
+			tasks: [{
+				id: "16CF6D8B61BEA5D2"
+				type: "item"
+				item: {
+					id: "artifacts:plastic_drinking_hat"
+					Count: 1b
+					cardinal_components: {
+						"artifacts:trinket_enabled": {
+							isEnabled: 1b
+						}
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "429D0C3E8E6A8905"
+					type: "loot"
+					table_id: 3133982820876343405L
+				}
+				{
+					id: "6CD40C713FCACC40"
+					type: "loot"
+					table_id: 4023534927821043910L
+				}
+				{
+					id: "7F29EA7F3450E335"
+					type: "loot"
+					table_id: 6908501239918343164L
+				}
+			]
+		}
+		{
+			x: 9.4d
+			y: -8.2d
+			dependencies: ["1C8E31A22E33F888"]
+			id: "632F35E4C83B7C6B"
+			tasks: [{
+				id: "4C769602B7FA6F83"
+				type: "item"
+				item: {
+					id: "artifacts:novelty_drinking_hat"
+					Count: 1b
+					cardinal_components: {
+						"artifacts:trinket_enabled": {
+							isEnabled: 1b
+						}
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "1A1F3CCCD623DBC2"
+					type: "loot"
+					table_id: 3133982820876343405L
+				}
+				{
+					id: "70FDF6C1CEC31628"
+					type: "loot"
+					table_id: 4023534927821043910L
+				}
+				{
+					id: "6F85F3FA682C72B6"
+					type: "loot"
+					table_id: 6908501239918343164L
+				}
+			]
+		}
+		{
+			x: 4.9d
+			y: -2.1999999999999984d
+			id: "4897D373F747BD82"
+			tasks: [{
+				id: "7A08963EEEE614EB"
+				type: "item"
+				item: {
+					id: "artifacts:snorkel"
+					Count: 1b
+					cardinal_components: {
+						"artifacts:trinket_enabled": {
+							isEnabled: 1b
+						}
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "3676C6A8A4F09180"
+					type: "loot"
+					table_id: 3133982820876343405L
+				}
+				{
+					id: "2E6D31884B820D66"
+					type: "loot"
+					table_id: 4023534927821043910L
+				}
+				{
+					id: "0DEB47E9F21A474B"
+					type: "loot"
+					table_id: 6908501239918343164L
+				}
+			]
+		}
+		{
+			x: 5.9d
+			y: -7.199999999999998d
+			dependencies: ["52C400988EB81019"]
+			id: "6E69687A1724E0AD"
+			tasks: [{
+				id: "18FBA6B7109B5093"
+				type: "item"
+				item: {
+					id: "artifacts:night_vision_goggles"
+					Count: 1b
+					cardinal_components: {
+						"artifacts:trinket_enabled": {
+							isEnabled: 1b
+						}
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "452C850CCAC89635"
+					type: "loot"
+					table_id: 3133982820876343405L
+				}
+				{
+					id: "178399420EFEDA93"
+					type: "loot"
+					table_id: 4023534927821043910L
+				}
+				{
+					id: "3CCB610E0AE01A96"
+					type: "loot"
+					table_id: 6908501239918343164L
+				}
+			]
+		}
+		{
+			x: 18.4d
+			y: -4.7d
+			id: "55C26A0EF40D9715"
+			tasks: [{
+				id: "4604C3DD2DAD80D8"
+				type: "item"
+				item: {
+					id: "artifacts:villager_hat"
+					Count: 1b
+					cardinal_components: {
+						"artifacts:trinket_enabled": {
+							isEnabled: 1b
+						}
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "566BD30908B7D4C6"
+					type: "loot"
+					table_id: 3133982820876343405L
+				}
+				{
+					id: "0589E9E40B670A26"
+					type: "loot"
+					table_id: 4023534927821043910L
+				}
+				{
+					id: "2E24770DE1D7AC99"
+					type: "loot"
+					table_id: 6908501239918343164L
+				}
+			]
+		}
+		{
+			x: 4.9d
+			y: -7.199999999999998d
+			id: "52C400988EB81019"
+			tasks: [{
+				id: "0A90554424E4E316"
+				type: "item"
+				item: {
+					id: "artifacts:superstitious_hat"
+					Count: 1b
+					cardinal_components: {
+						"artifacts:trinket_enabled": {
+							isEnabled: 1b
+						}
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "569E00352E4903B1"
+					type: "loot"
+					table_id: 3133982820876343405L
+				}
+				{
+					id: "0F54B4DA7EC37843"
+					type: "loot"
+					table_id: 4023534927821043910L
+				}
+				{
+					id: "033F9545E624B831"
+					type: "loot"
+					table_id: 6908501239918343164L
+				}
+			]
+		}
+		{
+			x: 9.4d
+			y: -3.1999999999999984d
+			dependencies: ["5CEE9E011D92625D"]
+			id: "5063EC13CFCFFBE3"
+			tasks: [{
+				id: "3FE98F97E9065A38"
+				type: "item"
+				item: {
+					id: "artifacts:lucky_scarf"
+					Count: 1b
+					cardinal_components: {
+						"artifacts:trinket_enabled": {
+							isEnabled: 1b
+						}
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "36313F1F2B2D88C3"
+					type: "loot"
+					table_id: 3133982820876343405L
+				}
+				{
+					id: "5CD8264992B2A47D"
+					type: "loot"
+					table_id: 4023534927821043910L
+				}
+				{
+					id: "3D2EDC67490688DE"
+					type: "loot"
+					table_id: 6908501239918343164L
+				}
+			]
+		}
+		{
+			x: 10.4d
+			y: -3.1999999999999984d
+			id: "5CEE9E011D92625D"
+			tasks: [{
+				id: "35A3D84F0D91B46A"
+				type: "item"
+				item: {
+					id: "artifacts:scarf_of_invisibility"
+					Count: 1b
+					cardinal_components: {
+						"artifacts:trinket_enabled": {
+							isEnabled: 1b
+						}
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "71F673DDF371C65B"
+					type: "loot"
+					table_id: 3133982820876343405L
+				}
+				{
+					id: "084777BEAA26EFF0"
+					type: "loot"
+					table_id: 4023534927821043910L
+				}
+				{
+					id: "28BBE82FD7DA21D0"
+					type: "loot"
+					table_id: 6908501239918343164L
+				}
+			]
+		}
+		{
+			x: 10.4d
+			y: -1.2000000000000002d
+			hide_dependency_lines: true
+			dependencies: ["3D44566180F359D1"]
+			id: "57437723BC8392AB"
+			tasks: [{
+				id: "6B2C20E10FE1C7DD"
+				type: "item"
+				item: {
+					id: "artifacts:cross_necklace"
+					Count: 1b
+					cardinal_components: {
+						"artifacts:trinket_enabled": {
+							isEnabled: 1b
+						}
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "7FDDF40D183100F7"
+					type: "loot"
+					table_id: 3133982820876343405L
+				}
+				{
+					id: "5435484C8755E74C"
+					type: "loot"
+					table_id: 4023534927821043910L
+				}
+				{
+					id: "14EA340D4932773D"
+					type: "loot"
+					table_id: 6908501239918343164L
+				}
+			]
+		}
+		{
+			x: 5.9d
+			y: -3.1999999999999984d
+			dependencies: ["1F1AA9CA33276A88"]
+			id: "411844EFBBC57ECA"
+			tasks: [{
+				id: "1D677428D1F050B2"
+				type: "item"
+				item: {
+					id: "artifacts:panic_necklace"
+					Count: 1b
+					cardinal_components: {
+						"artifacts:trinket_enabled": {
+							isEnabled: 1b
+						}
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "11873731F5CB942A"
+					type: "loot"
+					table_id: 3133982820876343405L
+				}
+				{
+					id: "28A2D7B473EEB1B1"
+					type: "loot"
+					table_id: 4023534927821043910L
+				}
+				{
+					id: "1C8807A178D71CCE"
+					type: "loot"
+					table_id: 6908501239918343164L
+				}
+			]
+		}
+		{
+			x: 10.4d
+			y: -4.199999999999998d
+			id: "40D3281C148B96BB"
+			tasks: [{
+				id: "4E7F8758E7E37B95"
+				type: "item"
+				item: {
+					id: "artifacts:shock_pendant"
+					Count: 1b
+					cardinal_components: {
+						"artifacts:trinket_enabled": {
+							isEnabled: 1b
+						}
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "0E78E2E513CEAD3D"
+					type: "loot"
+					table_id: 3133982820876343405L
+				}
+				{
+					id: "12D9765EA97A2669"
+					type: "loot"
+					table_id: 4023534927821043910L
+				}
+				{
+					id: "0DE974393D4CC913"
+					type: "loot"
+					table_id: 6908501239918343164L
+				}
+			]
+		}
+		{
+			x: 9.4d
+			y: -2.2d
+			dependencies: ["2F27D03FFC60DB9E"]
+			id: "26E0939A3B24FCBF"
+			tasks: [{
+				id: "275FBC5BDC43D5A7"
+				type: "item"
+				item: {
+					id: "artifacts:flame_pendant"
+					Count: 1b
+					cardinal_components: {
+						"artifacts:trinket_enabled": {
+							isEnabled: 1b
+						}
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "24A91A736532EF57"
+					type: "loot"
+					table_id: 3133982820876343405L
+				}
+				{
+					id: "2FE66B943E0DD7AB"
+					type: "loot"
+					table_id: 4023534927821043910L
+				}
+				{
+					id: "1643D39E76DF88D0"
+					type: "loot"
+					table_id: 6908501239918343164L
+				}
+			]
+		}
+		{
+			x: 9.4d
+			y: -4.199999999999998d
+			dependencies: ["40D3281C148B96BB"]
+			id: "133DB96C7CF4A298"
+			tasks: [{
+				id: "24624075FE9F254D"
+				type: "item"
+				item: {
+					id: "artifacts:thorn_pendant"
+					Count: 1b
+					cardinal_components: {
+						"artifacts:trinket_enabled": {
+							isEnabled: 1b
+						}
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "65C8854E71B2D9B8"
+					type: "loot"
+					table_id: 3133982820876343405L
+				}
+				{
+					id: "1B65563BD9F53D90"
+					type: "loot"
+					table_id: 4023534927821043910L
+				}
+				{
+					id: "1CB231FE989D8C76"
+					type: "loot"
+					table_id: 6908501239918343164L
+				}
+			]
+		}
+		{
+			x: 4.9d
+			y: -5.199999999999998d
+			id: "29AB8DB7B90844CE"
+			tasks: [{
+				id: "47EFD3F225663A28"
+				type: "item"
+				item: {
+					id: "artifacts:obsidian_skull"
+					Count: 1b
+					cardinal_components: {
+						"artifacts:trinket_enabled": {
+							isEnabled: 1b
+						}
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "031431FC5AA2A1D4"
+					type: "loot"
+					table_id: 3133982820876343405L
+				}
+				{
+					id: "2332E0C0AAB78D6E"
+					type: "loot"
+					table_id: 4023534927821043910L
+				}
+				{
+					id: "018A674180063186"
+					type: "loot"
+					table_id: 6908501239918343164L
+				}
+			]
+		}
+		{
+			x: 4.9d
+			y: -4.199999999999998d
+			id: "5A596061A3D30B96"
+			tasks: [{
+				id: "5C30FB3E04D5A781"
+				type: "item"
+				item: {
+					id: "artifacts:antidote_vessel"
+					Count: 1b
+					cardinal_components: {
+						"artifacts:trinket_enabled": {
+							isEnabled: 1b
+						}
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "104848563439FF51"
+					type: "loot"
+					table_id: 3133982820876343405L
+				}
+				{
+					id: "7C055A24822EF6FB"
+					type: "loot"
+					table_id: 4023534927821043910L
+				}
+				{
+					id: "7FD537C84B09DFE3"
+					type: "loot"
+					table_id: 6908501239918343164L
+				}
+			]
+		}
+		{
+			x: 4.9d
+			y: -1.2000000000000002d
+			hide_dependency_lines: true
+			dependencies: ["3D44566180F359D1"]
+			id: "744F49087638033D"
+			tasks: [{
+				id: "5B41D7412AE914E8"
+				type: "item"
+				item: {
+					id: "artifacts:universal_attractor"
+					Count: 1b
+					cardinal_components: {
+						"artifacts:trinket_enabled": {
+							isEnabled: 1b
+						}
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "35DC2865035FF353"
+					type: "loot"
+					table_id: 3133982820876343405L
+				}
+				{
+					id: "53DB8AD79C786EC1"
+					type: "loot"
+					table_id: 4023534927821043910L
+				}
+				{
+					id: "173D8DD0A4925E40"
+					type: "loot"
+					table_id: 6908501239918343164L
+				}
+			]
+		}
+		{
+			x: 5.9d
+			y: -5.199999999999998d
+			dependencies: ["29AB8DB7B90844CE"]
+			id: "38EE5516611D7B34"
+			tasks: [{
+				id: "60244DD1C2D54E17"
+				type: "item"
+				item: {
+					id: "artifacts:crystal_heart"
+					Count: 1b
+					cardinal_components: {
+						"artifacts:trinket_enabled": {
+							isEnabled: 1b
+						}
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "06A0E2BBB8980AFC"
+					type: "loot"
+					table_id: 3133982820876343405L
+				}
+				{
+					id: "6235FEDAFF9B09AA"
+					type: "loot"
+					table_id: 4023534927821043910L
+				}
+				{
+					id: "222563BF5274BA90"
+					type: "loot"
+					table_id: 6908501239918343164L
+				}
+			]
+		}
+		{
+			x: 4.9d
+			y: -3.1999999999999984d
+			id: "1F1AA9CA33276A88"
+			tasks: [{
+				id: "5D9BDC64616FC3F3"
+				type: "item"
+				item: {
+					id: "artifacts:cloud_in_a_bottle"
+					Count: 1b
+					cardinal_components: {
+						"artifacts:trinket_enabled": {
+							isEnabled: 1b
+						}
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "08883C5066352B98"
+					type: "loot"
+					table_id: 3133982820876343405L
+				}
+				{
+					id: "2F365348680C3A36"
+					type: "loot"
+					table_id: 4023534927821043910L
+				}
+				{
+					id: "564EA7690B99EDA3"
+					type: "loot"
+					table_id: 6908501239918343164L
+				}
+			]
+		}
+		{
+			x: 10.4d
+			y: -5.199999999999998d
+			id: "3C81AE8259EAAF42"
+			tasks: [{
+				id: "4050D76BABEFD0B5"
+				type: "item"
+				item: {
+					id: "artifacts:digging_claws"
+					Count: 1b
+					cardinal_components: {
+						"artifacts:trinket_enabled": {
+							isEnabled: 1b
+						}
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "1BAEEEF749027CF5"
+					type: "loot"
+					table_id: 3133982820876343405L
+				}
+				{
+					id: "08FD263C2CCD3728"
+					type: "loot"
+					table_id: 4023534927821043910L
+				}
+				{
+					id: "41F326BEEDE5D25E"
+					type: "loot"
+					table_id: 6908501239918343164L
+				}
+			]
+		}
+		{
+			x: 9.4d
+			y: -5.199999999999998d
+			dependencies: ["3C81AE8259EAAF42"]
+			id: "43B8D0BC3FDCBA23"
+			tasks: [{
+				id: "6FA32D96E90F78C9"
+				type: "item"
+				item: {
+					id: "artifacts:feral_claws"
+					Count: 1b
+					cardinal_components: {
+						"artifacts:trinket_enabled": {
+							isEnabled: 1b
+						}
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "5A1947A860DDE8A7"
+					type: "loot"
+					table_id: 3133982820876343405L
+				}
+				{
+					id: "5D5679FE981B12EE"
+					type: "loot"
+					table_id: 4023534927821043910L
+				}
+				{
+					id: "389A45DD4097B222"
+					type: "loot"
+					table_id: 6908501239918343164L
+				}
+			]
+		}
+		{
+			x: 9.4d
+			y: -1.2000000000000002d
+			dependencies: ["57437723BC8392AB"]
+			id: "73C444DF5A28BF44"
+			tasks: [{
+				id: "42C065D937F225EA"
+				type: "item"
+				item: {
+					id: "artifacts:power_glove"
+					Count: 1b
+					cardinal_components: {
+						"artifacts:trinket_enabled": {
+							isEnabled: 1b
+						}
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "5795ECB260D877EF"
+					type: "loot"
+					table_id: 3133982820876343405L
+				}
+				{
+					id: "337E189B1637093E"
+					type: "loot"
+					table_id: 4023534927821043910L
+				}
+				{
+					id: "7C7FBE81B6083977"
+					type: "loot"
+					table_id: 6908501239918343164L
+				}
+			]
+		}
+		{
+			x: 10.4d
+			y: -2.2d
+			id: "2F27D03FFC60DB9E"
+			tasks: [{
+				id: "4B6B3017CB0BC24E"
+				type: "item"
+				item: {
+					id: "artifacts:fire_gauntlet"
+					Count: 1b
+					cardinal_components: {
+						"artifacts:trinket_enabled": {
+							isEnabled: 1b
+						}
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "32B1C532FBC9CACD"
+					type: "loot"
+					table_id: 3133982820876343405L
+				}
+				{
+					id: "0A1BB5660400639A"
+					type: "loot"
+					table_id: 4023534927821043910L
+				}
+				{
+					id: "0D69457B1DE916CC"
+					type: "loot"
+					table_id: 6908501239918343164L
+				}
+			]
+		}
+		{
+			x: 5.9d
+			y: -6.199999999999998d
+			dependencies: ["6C6B6590B842B697"]
+			id: "689E0BC5F7678540"
+			tasks: [{
+				id: "79260C7C6A95297A"
+				type: "item"
+				item: {
+					id: "artifacts:pocket_piston"
+					Count: 1b
+					cardinal_components: {
+						"artifacts:trinket_enabled": {
+							isEnabled: 1b
+						}
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "7DE84364BB3D04D9"
+					type: "loot"
+					table_id: 3133982820876343405L
+				}
+				{
+					id: "0673C59F93E47835"
+					type: "loot"
+					table_id: 4023534927821043910L
+				}
+				{
+					id: "2EEA541C4691112F"
+					type: "loot"
+					table_id: 6908501239918343164L
+				}
+			]
+		}
+		{
+			x: 5.9d
+			y: -8.2d
+			dependencies: ["0FFFF12729C10E95"]
+			id: "1D591876CDE9601D"
+			tasks: [{
+				id: "3A0B2547093F2008"
+				type: "item"
+				item: {
+					id: "artifacts:golden_hook"
+					Count: 1b
+					cardinal_components: {
+						"artifacts:trinket_enabled": {
+							isEnabled: 1b
+						}
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "11A600F4F309041E"
+					type: "loot"
+					table_id: 3133982820876343405L
+				}
+				{
+					id: "0D4C083D286C3DF6"
+					type: "loot"
+					table_id: 4023534927821043910L
+				}
+				{
+					id: "5B0379DAB1CCD499"
+					type: "loot"
+					table_id: 6908501239918343164L
+				}
+			]
+		}
+		{
+			x: 5.9d
+			y: -4.199999999999998d
+			dependencies: ["5A596061A3D30B96"]
+			id: "0DBE6313E02F7C96"
+			tasks: [{
+				id: "52AC24E61F8C1268"
+				type: "item"
+				item: {
+					id: "artifacts:vampiric_glove"
+					Count: 1b
+					cardinal_components: {
+						"artifacts:trinket_enabled": {
+							isEnabled: 1b
+						}
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "39C5E41A6A051298"
+					type: "loot"
+					table_id: 3133982820876343405L
+				}
+				{
+					id: "68D3D5AF13F734DE"
+					type: "loot"
+					table_id: 4023534927821043910L
+				}
+				{
+					id: "437AE8C52D3E5BDE"
+					type: "loot"
+					table_id: 6908501239918343164L
+				}
+			]
+		}
+		{
+			x: 9.4d
+			y: -6.199999999999998d
+			dependencies: ["0CA56351D460A0E5"]
+			id: "4C1ACF8F66F7490B"
+			tasks: [{
+				id: "7E2D0CAC41035ED5"
+				type: "item"
+				item: {
+					id: "artifacts:bunny_hoppers"
+					Count: 1b
+					cardinal_components: {
+						"artifacts:trinket_enabled": {
+							isEnabled: 1b
+						}
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "37E3E9B6EB774D98"
+					type: "loot"
+					table_id: 3133982820876343405L
+				}
+				{
+					id: "23565921729C07FC"
+					type: "loot"
+					table_id: 4023534927821043910L
+				}
+				{
+					id: "72E3D4D109EAD020"
+					type: "loot"
+					table_id: 6908501239918343164L
+				}
+			]
+		}
+		{
+			x: 10.4d
+			y: -6.199999999999998d
+			id: "0CA56351D460A0E5"
+			tasks: [{
+				id: "47C06C16598D28B0"
+				type: "item"
+				item: {
+					id: "artifacts:kitty_slippers"
+					Count: 1b
+					cardinal_components: {
+						"artifacts:trinket_enabled": {
+							isEnabled: 1b
+						}
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "0B7C2B19E9645B71"
+					type: "loot"
+					table_id: 3133982820876343405L
+				}
+				{
+					id: "38A8FE23B1B0CFAF"
+					type: "loot"
+					table_id: 4023534927821043910L
+				}
+				{
+					id: "148447CA5B7823B3"
+					type: "loot"
+					table_id: 6908501239918343164L
+				}
+			]
+		}
+		{
+			x: 5.9d
+			y: -1.2000000000000002d
+			dependencies: ["744F49087638033D"]
+			id: "11F42CB233CCB82C"
+			tasks: [{
+				id: "7E4E3B907AB9909E"
+				type: "item"
+				item: {
+					id: "artifacts:running_shoes"
+					Count: 1b
+					cardinal_components: {
+						"artifacts:trinket_enabled": {
+							isEnabled: 1b
+						}
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "0DC833C410036BDA"
+					type: "loot"
+					table_id: 3133982820876343405L
+				}
+				{
+					id: "6F54D6187AA6BAA9"
+					type: "loot"
+					table_id: 4023534927821043910L
+				}
+				{
+					id: "602CAFD491AF6227"
+					type: "loot"
+					table_id: 6908501239918343164L
+				}
+			]
+		}
+		{
+			x: 4.9d
+			y: -6.199999999999998d
+			id: "6C6B6590B842B697"
+			tasks: [{
+				id: "0494ABBEB31BC16A"
+				type: "item"
+				item: {
+					id: "artifacts:steadfast_spikes"
+					Count: 1b
+					cardinal_components: {
+						"artifacts:trinket_enabled": {
+							isEnabled: 1b
+						}
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "707990C7126F2A56"
+					type: "loot"
+					table_id: 3133982820876343405L
+				}
+				{
+					id: "27785CFA2D8B582A"
+					type: "loot"
+					table_id: 4023534927821043910L
+				}
+				{
+					id: "6956D2CBF563B305"
+					type: "loot"
+					table_id: 6908501239918343164L
+				}
+			]
+		}
+		{
+			x: 5.9d
+			y: -2.1999999999999984d
+			dependencies: ["4897D373F747BD82"]
+			id: "7B5C7E06D583614D"
+			tasks: [{
+				id: "2577461F130C734C"
+				type: "item"
+				item: {
+					id: "artifacts:flippers"
+					Count: 1b
+					cardinal_components: {
+						"artifacts:trinket_enabled": {
+							isEnabled: 1b
+						}
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "2C6BC0C8ABBE6A74"
+					type: "loot"
+					table_id: 3133982820876343405L
+				}
+				{
+					id: "115D0E681C8ED0D2"
+					type: "loot"
+					table_id: 4023534927821043910L
+				}
+				{
+					id: "271CDD29DAC1F944"
+					type: "loot"
+					table_id: 6908501239918343164L
+				}
+			]
+		}
+		{
+			x: 14.4d
+			y: -7.7d
+			id: "3E35A007CABEDBC7"
+			tasks: [{
+				id: "2E135C0E4F435FCF"
+				type: "item"
+				item: "givemehats:bowler_hat"
+			}]
+			rewards: [
+				{
+					id: "6853792D5F74452B"
+					type: "loot"
+					table_id: 3133982820876343405L
+				}
+				{
+					id: "55E73E2BA5773F08"
+					type: "loot"
+					table_id: 4023534927821043910L
+				}
+				{
+					id: "6587FB3AF0C7B623"
+					type: "loot"
+					table_id: 6908501239918343164L
+				}
+			]
+		}
+		{
+			x: 15.4d
+			y: -7.7d
+			id: "5202A44D6D991F76"
+			tasks: [{
+				id: "1C62D60DB2154D5D"
+				type: "item"
+				item: "givemehats:top_hat"
+			}]
+			rewards: [
+				{
+					id: "72F43F13DD397DD3"
+					type: "loot"
+					table_id: 3133982820876343405L
+				}
+				{
+					id: "50855E94BA9770A9"
+					type: "loot"
+					table_id: 4023534927821043910L
+				}
+				{
+					id: "57CCC8CC9296C0EE"
+					type: "loot"
+					table_id: 6908501239918343164L
+				}
+			]
+		}
+		{
+			x: 16.4d
+			y: -7.7d
+			id: "031D3F5F16DB79A5"
+			tasks: [{
+				id: "6B82BAA4093402B8"
+				type: "item"
+				item: "givemehats:topest_hat"
+			}]
+			rewards: [
+				{
+					id: "28B32087EB4037DC"
+					type: "loot"
+					table_id: 3133982820876343405L
+				}
+				{
+					id: "59F2AFB6776514CB"
+					type: "loot"
+					table_id: 4023534927821043910L
+				}
+				{
+					id: "78165793EDCD2DD8"
+					type: "loot"
+					table_id: 6908501239918343164L
+				}
+			]
+		}
+		{
+			x: 13.4d
+			y: -3.7d
+			id: "7FA494AE3D8B083B"
+			tasks: [{
+				id: "5F050E4855FF9BA6"
+				type: "item"
+				item: "givemehats:bunny_ears"
+			}]
+			rewards: [
+				{
+					id: "1F3C9106C9E6CDE7"
+					type: "loot"
+					table_id: 3133982820876343405L
+				}
+				{
+					id: "6853D5E5743B1F57"
+					type: "loot"
+					table_id: 4023534927821043910L
+				}
+				{
+					id: "4CB079F7A8746B15"
+					type: "loot"
+					table_id: 6908501239918343164L
+				}
+			]
+		}
+		{
+			x: 17.4d
+			y: -6.7d
+			id: "3EBF52AFFD993779"
+			tasks: [{
+				id: "25D9542C6B2B4F45"
+				type: "item"
+				item: "givemehats:santa_hat"
+			}]
+			rewards: [
+				{
+					id: "684F6BB689F191D1"
+					type: "loot"
+					table_id: 3133982820876343405L
+				}
+				{
+					id: "7C1EB39FF8752400"
+					type: "loot"
+					table_id: 4023534927821043910L
+				}
+				{
+					id: "2B005059F9E17EC0"
+					type: "loot"
+					table_id: 6908501239918343164L
+				}
+			]
+		}
+		{
+			x: 16.4d
+			y: -0.7d
+			id: "667BEC7F2A6803CE"
+			tasks: [{
+				id: "57731111B7403D27"
+				type: "item"
+				item: "givemehats:slime_hat"
+			}]
+			rewards: [
+				{
+					id: "2AD925E2053A40EC"
+					type: "loot"
+					table_id: 3133982820876343405L
+				}
+				{
+					id: "33ED34D73AC660EB"
+					type: "loot"
+					table_id: 4023534927821043910L
+				}
+				{
+					id: "41C19AD6A8B93F7D"
+					type: "loot"
+					table_id: 6908501239918343164L
+				}
+			]
+		}
+		{
+			x: 13.4d
+			y: -1.7d
+			id: "4DEA7334142C8BC8"
+			tasks: [{
+				id: "1EAEBBC4976E1331"
+				type: "item"
+				item: "givemehats:cowboy_hat"
+			}]
+			rewards: [
+				{
+					id: "6F2B4CBB6E434B73"
+					type: "loot"
+					table_id: 3133982820876343405L
+				}
+				{
+					id: "68D7468509477FA9"
+					type: "loot"
+					table_id: 4023534927821043910L
+				}
+				{
+					id: "4A38DF2AA68956B3"
+					type: "loot"
+					table_id: 6908501239918343164L
+				}
+			]
+		}
+		{
+			x: 14.4d
+			y: -1.7d
+			id: "58EA0AB00D0C2FDA"
+			tasks: [{
+				id: "6C2A63EE12A7AE97"
+				type: "item"
+				item: "givemehats:sailor_hat"
+			}]
+			rewards: [
+				{
+					id: "4834AA0BE0CC03DB"
+					type: "loot"
+					table_id: 3133982820876343405L
+				}
+				{
+					id: "61EB1FEA7A64D5A8"
+					type: "loot"
+					table_id: 4023534927821043910L
+				}
+				{
+					id: "01745B03638511B4"
+					type: "loot"
+					table_id: 6908501239918343164L
+				}
+			]
+		}
+		{
+			x: 18.4d
+			y: -0.7d
+			id: "1A7B51E29B4AE2E0"
+			tasks: [{
+				id: "74B2C939DE1A29B0"
+				type: "item"
+				item: "givemehats:floating_hat"
+			}]
+			rewards: [
+				{
+					id: "5720E718303D6880"
+					type: "loot"
+					table_id: 3133982820876343405L
+				}
+				{
+					id: "7B5E1B94DD6532CD"
+					type: "loot"
+					table_id: 4023534927821043910L
+				}
+				{
+					id: "26485872875C8968"
+					type: "loot"
+					table_id: 6908501239918343164L
+				}
+			]
+		}
+		{
+			x: 17.4d
+			y: -7.7d
+			id: "647FE924E37B383D"
+			tasks: [{
+				id: "72740794E05020F0"
+				type: "item"
+				item: "givemehats:deerstalker_hat"
+			}]
+			rewards: [
+				{
+					id: "4BB73E96DB7CC64A"
+					type: "loot"
+					table_id: 3133982820876343405L
+				}
+				{
+					id: "10B5AAE0E584F566"
+					type: "loot"
+					table_id: 4023534927821043910L
+				}
+				{
+					id: "68E4B4E610608A12"
+					type: "loot"
+					table_id: 6908501239918343164L
+				}
+			]
+		}
+		{
+			x: 13.4d
+			y: -5.7d
+			id: "3FB71646AB7D3680"
+			tasks: [{
+				id: "54D47B703150F314"
+				type: "item"
+				item: "givemehats:cat_ears"
+			}]
+			rewards: [
+				{
+					id: "539996433F8123BE"
+					type: "loot"
+					table_id: 3133982820876343405L
+				}
+				{
+					id: "066F0FC8BE254755"
+					type: "loot"
+					table_id: 4023534927821043910L
+				}
+				{
+					id: "016E4284DD7625E9"
+					type: "loot"
+					table_id: 6908501239918343164L
+				}
+			]
+		}
+		{
+			x: 13.4d
+			y: -6.7d
+			id: "6602BB2F775494FC"
+			tasks: [{
+				id: "5114EEC9F19B64A5"
+				type: "item"
+				item: "givemehats:electric_mouse_ears"
+			}]
+			rewards: [
+				{
+					id: "61BEE765D98E0586"
+					type: "loot"
+					table_id: 3133982820876343405L
+				}
+				{
+					id: "1999A1243F75990E"
+					type: "loot"
+					table_id: 4023534927821043910L
+				}
+				{
+					id: "5E01FA3ACC5F5D08"
+					type: "loot"
+					table_id: 6908501239918343164L
+				}
+			]
+		}
+		{
+			x: 13.4d
+			y: -4.7d
+			id: "77BD1460B28BD10F"
+			tasks: [{
+				id: "061240E5B724AF6A"
+				type: "item"
+				item: "givemehats:fox_ears"
+			}]
+			rewards: [
+				{
+					id: "558144FB1F39F739"
+					type: "loot"
+					table_id: 3133982820876343405L
+				}
+				{
+					id: "6EB6203B3C397432"
+					type: "loot"
+					table_id: 4023534927821043910L
+				}
+				{
+					id: "05A2B337D5E8E705"
+					type: "loot"
+					table_id: 6908501239918343164L
+				}
+			]
+		}
+		{
+			x: 13.4d
+			y: -7.7d
+			id: "34A09029612D282F"
+			tasks: [{
+				id: "04170B3E2693E4AD"
+				type: "item"
+				item: "givemehats:wolf_ears"
+			}]
+			rewards: [
+				{
+					id: "42B0F8B6F59BE1E8"
+					type: "loot"
+					table_id: 3133982820876343405L
+				}
+				{
+					id: "21ABB9BEE14B1848"
+					type: "loot"
+					table_id: 4023534927821043910L
+				}
+				{
+					id: "761F1E46B55F3413"
+					type: "loot"
+					table_id: 6908501239918343164L
+				}
+			]
+		}
+		{
+			x: 18.4d
+			y: -7.7d
+			id: "35FF51E2F0D429B9"
+			tasks: [{
+				id: "78B3E12E162CE70E"
+				type: "item"
+				item: "givemehats:crown"
+			}]
+			rewards: [
+				{
+					id: "6C5168CDE0DA6A97"
+					type: "loot"
+					table_id: 3133982820876343405L
+				}
+				{
+					id: "3327B70A50F619D5"
+					type: "loot"
+					table_id: 4023534927821043910L
+				}
+				{
+					id: "3B9CC65417902D3A"
+					type: "loot"
+					table_id: 6908501239918343164L
+				}
+			]
+		}
+		{
+			x: 13.4d
+			y: -2.7d
+			id: "6C360A5A095C8486"
+			tasks: [{
+				id: "0567CF6A753BCB17"
+				type: "item"
+				item: "givemehats:russian_hat"
+			}]
+			rewards: [
+				{
+					id: "54A23C5E22D2FA5E"
+					type: "loot"
+					table_id: 3133982820876343405L
+				}
+				{
+					id: "10D9FDE1AA367483"
+					type: "loot"
+					table_id: 4023534927821043910L
+				}
+				{
+					id: "689B97F350871951"
+					type: "loot"
+					table_id: 6908501239918343164L
+				}
+			]
+		}
+		{
+			x: 18.4d
+			y: -2.7d
+			id: "1C3637BEB254E807"
+			tasks: [{
+				id: "52DCEFCB05629278"
+				type: "item"
+				item: "givemehats:strider_hat"
+			}]
+			rewards: [
+				{
+					id: "247BE056F8BBEA2A"
+					type: "loot"
+					table_id: 3133982820876343405L
+				}
+				{
+					id: "11D97C8424255800"
+					type: "loot"
+					table_id: 4023534927821043910L
+				}
+				{
+					id: "127DC4C71AF058D5"
+					type: "loot"
+					table_id: 6908501239918343164L
+				}
+			]
+		}
+		{
+			x: 15.4d
+			y: -0.7d
+			id: "756AFD08EA1F5A76"
+			tasks: [{
+				id: "6A9AE84056D282F7"
+				type: "item"
+				item: "givemehats:woolrus_hat"
+			}]
+			rewards: [
+				{
+					id: "1B2CE14C819169AA"
+					type: "loot"
+					table_id: 3133982820876343405L
+				}
+				{
+					id: "0782877017DE191A"
+					type: "loot"
+					table_id: 4023534927821043910L
+				}
+				{
+					id: "57658624E91DF197"
+					type: "loot"
+					table_id: 6908501239918343164L
+				}
+			]
+		}
+		{
+			x: 18.4d
+			y: -1.7d
+			id: "664186FA54FAB214"
+			tasks: [{
+				id: "17421DC50DDC1B0E"
+				type: "item"
+				item: "givemehats:tater_hat"
+			}]
+			rewards: [
+				{
+					id: "26EF9B3B98E6DA1A"
+					type: "loot"
+					table_id: 3133982820876343405L
+				}
+				{
+					id: "5BC7A5C684538B86"
+					type: "loot"
+					table_id: 4023534927821043910L
+				}
+				{
+					id: "5245D8CFA21C98A5"
+					type: "loot"
+					table_id: 6908501239918343164L
+				}
+			]
+		}
+		{
+			x: 17.4d
+			y: -0.7d
+			id: "552654A91B405F9D"
+			tasks: [{
+				id: "500C88BCD190F7DA"
+				type: "item"
+				item: "givemehats:bunny_space_helmet"
+			}]
+			rewards: [
+				{
+					id: "31003ACF94C09343"
+					type: "loot"
+					table_id: 3133982820876343405L
+				}
+				{
+					id: "641901437BB64AEB"
+					type: "loot"
+					table_id: 4023534927821043910L
+				}
+				{
+					id: "77459A5A14AF903A"
+					type: "loot"
+					table_id: 6908501239918343164L
+				}
+			]
+		}
+		{
+			x: 18.4d
+			y: -5.7d
+			id: "5643BA89C26BCD9A"
+			tasks: [{
+				id: "211915052E8435FE"
+				type: "item"
+				item: "givemehats:golem_bucket"
+			}]
+			rewards: [
+				{
+					id: "57CBA713B1C38054"
+					type: "loot"
+					table_id: 3133982820876343405L
+				}
+				{
+					id: "119212C2A52B2068"
+					type: "loot"
+					table_id: 4023534927821043910L
+				}
+				{
+					id: "4B562F9483287684"
+					type: "loot"
+					table_id: 6908501239918343164L
+				}
+			]
+		}
+		{
+			x: 17.4d
+			y: -1.7d
+			id: "6F1207FA7329B508"
+			tasks: [{
+				id: "76919AC18726C647"
+				type: "item"
+				item: "givemehats:irish_hat"
+			}]
+			rewards: [
+				{
+					id: "36D9CB4BCF57DEA8"
+					type: "loot"
+					table_id: 3133982820876343405L
+				}
+				{
+					id: "5BAF75CE7C85FF4B"
+					type: "loot"
+					table_id: 4023534927821043910L
+				}
+				{
+					id: "053AE304E08680DD"
+					type: "loot"
+					table_id: 6908501239918343164L
+				}
+			]
+		}
+		{
+			x: 14.4d
+			y: -6.7d
+			id: "7A2A301A33F5E316"
+			tasks: [{
+				id: "68C8B40A7922739A"
+				type: "item"
+				item: "givemehats:jojo_hat"
+			}]
+			rewards: [
+				{
+					id: "35CE453676FC52E1"
+					type: "loot"
+					table_id: 3133982820876343405L
+				}
+				{
+					id: "3E5F717C24CF2EB5"
+					type: "loot"
+					table_id: 4023534927821043910L
+				}
+				{
+					id: "092D433FDE9E9F8B"
+					type: "loot"
+					table_id: 6908501239918343164L
+				}
+			]
+		}
+		{
+			x: 18.4d
+			y: -3.7d
+			id: "5046469088466671"
+			tasks: [{
+				id: "08DE95818DAF8221"
+				type: "item"
+				item: "givemehats:witch_hat"
+			}]
+			rewards: [
+				{
+					id: "40361D7D114AFC90"
+					type: "loot"
+					table_id: 3133982820876343405L
+				}
+				{
+					id: "2EE80A3C8CA5E25D"
+					type: "loot"
+					table_id: 4023534927821043910L
+				}
+				{
+					id: "51F61E26FCD35F90"
+					type: "loot"
+					table_id: 6908501239918343164L
+				}
+			]
+		}
+		{
+			x: 18.4d
+			y: -6.7d
+			id: "7B268803733E7CAC"
+			tasks: [{
+				id: "76E762F59A8D3D7E"
+				type: "item"
+				item: "givemehats:fez_hat"
+			}]
+			rewards: [
+				{
+					id: "41DEAF20C33C9A6E"
+					type: "loot"
+					table_id: 3133982820876343405L
+				}
+				{
+					id: "2732022146CEDC65"
+					type: "loot"
+					table_id: 4023534927821043910L
+				}
+				{
+					id: "4F668FDABB4E06CB"
+					type: "loot"
+					table_id: 6908501239918343164L
+				}
+			]
+		}
+		{
+			x: 14.4d
+			y: -0.7d
+			id: "614572CBC3782B55"
+			tasks: [{
+				id: "6A793365DCFF4B7C"
+				type: "item"
+				item: {
+					id: "biomemakeover:witch_hat"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "79B68ACB9D930C44"
+					type: "loot"
+					table_id: 3133982820876343405L
+				}
+				{
+					id: "48A4C7DA49F8EEA7"
+					type: "loot"
+					table_id: 4023534927821043910L
+				}
+				{
+					id: "58E87DB6EA2DBC2E"
+					type: "loot"
+					table_id: 6908501239918343164L
+				}
+			]
+		}
+		{
+			x: 13.4d
+			y: -0.7d
+			id: "0394927CB23BD386"
+			tasks: [{
+				id: "6AFBFFC0746EE24A"
+				type: "item"
+				item: {
+					id: "biomemakeover:cowboy_hat"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "725E88BFAD37313F"
+					type: "loot"
+					table_id: 3133982820876343405L
+				}
+				{
+					id: "146A7F7BE7586F0E"
+					type: "loot"
+					table_id: 4023534927821043910L
+				}
+				{
+					id: "2F87E915527581C5"
+					type: "loot"
+					table_id: 6908501239918343164L
+				}
+			]
+		}
+		{
+			x: 7.6000000000000005d
+			y: -0.5999999999999979d
+			dependencies: ["08ECE74F3241EA57"]
+			id: "3D44566180F359D1"
+			tasks: [{
+				id: "69DAFF68D2CFC4C5"
+				type: "item"
+				item: {
+					id: "villagerhats:cartographer_hat"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "47DB9737BD920225"
+					type: "loot"
+					table_id: 3133982820876343405L
+				}
+				{
+					id: "635FE84E08E1961E"
+					type: "loot"
+					table_id: 4023534927821043910L
+				}
+				{
+					id: "28E316EC59B4F2FD"
+					type: "loot"
+					table_id: 6908501239918343164L
+				}
+			]
+		}
+		{
+			x: -1.5999999999999992d
+			y: -5.0d
+			dependencies: ["131CF574BE8D3BB1"]
+			id: "522EDF51E9D5ECA0"
+			tasks: [{
+				id: "5ED3450CAD375864"
+				type: "item"
+				item: "ringsofascension:ring_slow_resistance"
+			}]
+			rewards: [
+				{
+					id: "54A9B2EE2BE5BD63"
+					type: "loot"
+					table_id: 3133982820876343405L
+				}
+				{
+					id: "6F18E4D268661B39"
+					type: "loot"
+					table_id: 4023534927821043910L
+				}
+				{
+					id: "0827E8451DA8381F"
+					type: "loot"
+					table_id: 6908501239918343164L
+				}
+			]
+		}
+		{
+			title: "Fly Reward"
+			x: 7.6000000000000005d
+			y: -4.199999999999999d
+			dependencies: [
+				"3D44566180F359D1"
+				"133DB96C7CF4A298"
+				"0DBE6313E02F7C96"
+				"40D3281C148B96BB"
+			]
+			id: "774E5E5F2D2BC327"
+			tasks: [{
+				id: "1A7C8F6E5875ED1B"
+				type: "item"
+				item: {
+					id: "villagerhats:shepherd_hat"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "47E6FB5E7CFEFA69"
+					type: "loot"
+					table_id: 3133982820876343405L
+				}
+				{
+					id: "019ED47815065B11"
+					type: "loot"
+					table_id: 4023534927821043910L
+				}
+				{
+					id: "04D287AEE502898E"
+					type: "loot"
+					table_id: 6908501239918343164L
+				}
+			]
+		}
+		{
+			title: "Power Reward"
+			x: 7.6000000000000005d
+			y: -6.199999999999999d
+			dependencies: [
+				"3D44566180F359D1"
+				"689E0BC5F7678540"
+				"4C1ACF8F66F7490B"
+				"0CA56351D460A0E5"
+				"4C1ACF8F66F7490B"
+			]
+			id: "3CD69A1281651251"
+			tasks: [{
+				id: "6BC220E9B1DB033E"
+				type: "item"
+				item: {
+					id: "villagerhats:fisherman_hat"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "4062423AA244DA29"
+					type: "loot"
+					table_id: 3133982820876343405L
+				}
+				{
+					id: "50A9FA811A7C4364"
+					type: "loot"
+					table_id: 4023534927821043910L
+				}
+				{
+					id: "7DFEB6AF675CDA95"
+					type: "loot"
+					table_id: 6908501239918343164L
+				}
+			]
+		}
+		{
+			title: "Walking Reward"
+			x: 7.6000000000000005d
+			y: -3.2d
+			dependencies: [
+				"3D44566180F359D1"
+				"5063EC13CFCFFBE3"
+				"411844EFBBC57ECA"
+			]
+			id: "3631BE96A9C9051F"
+			tasks: [{
+				id: "5F6528C22736D852"
+				type: "item"
+				item: {
+					id: "villagerhats:weaponsmith_hat"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "0B95EAF8BDF46731"
+					type: "loot"
+					table_id: 3133982820876343405L
+				}
+				{
+					id: "2D68E957BAF1322C"
+					type: "loot"
+					table_id: 4023534927821043910L
+				}
+				{
+					id: "2A0950DBB65764D2"
+					type: "loot"
+					table_id: 6908501239918343164L
+				}
+			]
+		}
+		{
+			title: "Jewellery Reward"
+			x: 7.6000000000000005d
+			y: -7.199999999999999d
+			dependencies: [
+				"3D44566180F359D1"
+				"6E69687A1724E0AD"
+				"26454051972475E5"
+				"52C400988EB81019"
+				"56B586DBDA92D931"
+			]
+			id: "3992F0B8DFDBAD7D"
+			tasks: [{
+				id: "5487B5B4937417E3"
+				type: "item"
+				item: {
+					id: "villagerhats:farmer_hat"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "75BE9DF00624E4D2"
+					type: "loot"
+					table_id: 3133982820876343405L
+				}
+				{
+					id: "07D9AD2A444C7E95"
+					type: "loot"
+					table_id: 4023534927821043910L
+				}
+				{
+					id: "5F3D47FA183B2AD3"
+					type: "loot"
+					table_id: 6908501239918343164L
+				}
+			]
+		}
+		{
+			title: "Mining Reward"
+			x: 7.6000000000000005d
+			y: -5.199999999999999d
+			dependencies: [
+				"3D44566180F359D1"
+				"43B8D0BC3FDCBA23"
+				"38EE5516611D7B34"
+				"29AB8DB7B90844CE"
+				"38EE5516611D7B34"
+			]
+			id: "077D857812EE3108"
+			tasks: [{
+				id: "6D40636684A067CD"
+				type: "item"
+				item: {
+					id: "villagerhats:fletcher_hat"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "06C5C87F949673A1"
+					type: "loot"
+					table_id: 3133982820876343405L
+				}
+				{
+					id: "25CAE111389E8903"
+					type: "loot"
+					table_id: 4023534927821043910L
+				}
+				{
+					id: "6714232F7377782B"
+					type: "loot"
+					table_id: 6908501239918343164L
+				}
+			]
+		}
+		{
+			title: "Food Reward"
+			x: 7.6000000000000005d
+			y: -2.2d
+			dependencies: [
+				"11F42CB233CCB82C"
+				"26E0939A3B24FCBF"
+				"7B5C7E06D583614D"
+				"73C444DF5A28BF44"
+			]
+			id: "5AF05DDCB36C63CC"
+			tasks: [{
+				id: "15C233473D4807D7"
+				type: "item"
+				item: "hard-hat-steve:hard_hat"
+			}]
+			rewards: [
+				{
+					id: "4EEC0B4FCAEE6087"
+					type: "loot"
+					table_id: 3133982820876343405L
+				}
+				{
+					id: "47CB359DAF38FB8F"
+					type: "loot"
+					table_id: 4023534927821043910L
+				}
+				{
+					id: "143926CE28580F52"
+					type: "loot"
+					table_id: 6908501239918343164L
+				}
+			]
+		}
+		{
+			title: "Equipment Reward"
+			x: 7.6000000000000005d
+			y: -8.2d
+			dependencies: [
+				"3D44566180F359D1"
+				"632F35E4C83B7C6B"
+				"1D591876CDE9601D"
+				"0FFFF12729C10E95"
+				"1C8E31A22E33F888"
+			]
+			id: "616D2BFD1D73A166"
+			tasks: [{
+				id: "2633576EEB9C99C5"
+				type: "item"
+				item: "terrarianslimes:umbrella_hat"
+			}]
+			rewards: [
+				{
+					id: "1BA7CF22132FEFC4"
+					type: "loot"
+					table_id: 3133982820876343405L
+				}
+				{
+					id: "0EDA02C8B4AE8E63"
+					type: "loot"
+					table_id: 4023534927821043910L
+				}
+				{
+					id: "327C72D7FBD158A7"
+					type: "loot"
+					table_id: 6908501239918343164L
+				}
+			]
+		}
+		{
+			x: 7.6d
+			y: -9.5d
+			dependencies: [
+				"616D2BFD1D73A166"
+				"774E5E5F2D2BC327"
+				"5AF05DDCB36C63CC"
+				"3992F0B8DFDBAD7D"
+				"077D857812EE3108"
+				"3CD69A1281651251"
+				"3631BE96A9C9051F"
+				"3D44566180F359D1"
+			]
+			id: "6809FC9C18B2019F"
+			tasks: [{
+				id: "15A1FF8CC227D23D"
+				type: "item"
+				item: "winged:wing_random"
+			}]
+			rewards: [
+				{
+					id: "5B07D6E00C4BDA73"
+					type: "loot"
+					table_id: 3133982820876343405L
+				}
+				{
+					id: "7F7D96188B081996"
+					type: "loot"
+					table_id: 4023534927821043910L
+				}
+				{
+					id: "4A9778ACA22BE8AE"
+					type: "loot"
+					table_id: 6908501239918343164L
+				}
+			]
+		}
+		{
+			x: -0.0999999999999992d
+			y: -0.5d
+			dependencies: ["08ECE74F3241EA57"]
+			id: "42C95D5F2D5D2762"
+			tasks: [{
+				id: "08E2D9D71BC7B18F"
+				type: "item"
+				item: "kibe:diamond_ring"
+			}]
+			rewards: [
+				{
+					id: "69986FD553F21B04"
+					type: "loot"
+					table_id: 3133982820876343405L
+				}
+				{
+					id: "78C5FF6C26DAF1F6"
+					type: "loot"
+					table_id: 4023534927821043910L
+				}
+				{
+					id: "0AAB6F5AD99CFB69"
+					type: "loot"
+					table_id: 6908501239918343164L
+				}
+			]
+		}
+		{
+			title: "End is Here!"
+			icon: "winged:wing_random"
+			x: 15.9d
+			y: -4.4d
+			dependencies: [
+				"3E35A007CABEDBC7"
+				"0394927CB23BD386"
+				"4DEA7334142C8BC8"
+				"647FE924E37B383D"
+				"1A7B51E29B4AE2E0"
+				"7A2A301A33F5E316"
+				"6F1207FA7329B508"
+				"6C360A5A095C8486"
+				"58EA0AB00D0C2FDA"
+				"3EBF52AFFD993779"
+				"667BEC7F2A6803CE"
+				"031D3F5F16DB79A5"
+				"5202A44D6D991F76"
+				"55C26A0EF40D9715"
+				"55C26A0EF40D9715"
+				"614572CBC3782B55"
+				"6602BB2F775494FC"
+				"7FA494AE3D8B083B"
+				"3FB71646AB7D3680"
+				"77BD1460B28BD10F"
+				"1C3637BEB254E807"
+				"35FF51E2F0D429B9"
+				"756AFD08EA1F5A76"
+				"7B268803733E7CAC"
+				"5643BA89C26BCD9A"
+				"34A09029612D282F"
+				"5046469088466671"
+				"664186FA54FAB214"
+				"552654A91B405F9D"
+			]
+			id: "6BC14169E736C9FC"
+			tasks: [{
+				id: "5EDADA1111AE925C"
+				type: "item"
+				item: {
+					id: "crusade:great_helm"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "4127E096B123304A"
+					type: "loot"
+					table_id: 3133982820876343405L
+				}
+				{
+					id: "3236B17F0AB1A642"
+					type: "loot"
+					table_id: 4023534927821043910L
+				}
+				{
+					id: "4B486CFC3787CF46"
+					type: "loot"
+					table_id: 6908501239918343164L
+				}
+				{
+					id: "6FF0A694CCFE1B09"
+					type: "item"
+					item: "expandedstorage:lavender_mini_present_with_sparrow"
+				}
+				{
+					id: "0C3B3AEDD25E1C1C"
+					type: "item"
+					item: "croptopia:horchata"
+				}
+				{
+					id: "1B8BB3B9296CAF28"
+					type: "item"
+					item: {
+						id: "crusade:great_helm_christmas"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+		}
+		{
+			x: 7.6d
+			y: -11.0d
+			dependencies: ["6809FC9C18B2019F"]
+			id: "4E205B88116CD079"
+			tasks: [{
+				id: "6D38D54890B0D035"
+				type: "item"
+				item: "artifacts:helium_flamingo"
+			}]
+			rewards: [{
+				id: "3FF1C9A788A9F2AE"
+				type: "item"
+				title: "Complete"
+				icon: "artifacts:helium_flamingo"
+				item: "minecraft:enchanted_golden_apple"
+				count: 64
+			}]
+		}
+		{
+			icon: {
+				id: "kibe:angel_ring"
+				Count: 1b
+				tag: { }
+			}
+			x: 0.0d
+			y: -8.5d
+			shape: "circle"
+			dependencies: [
+				"2890B8A0D0805DDF"
+				"5F8EF225F9BA16FE"
+				"2B1E29BF084BEB8F"
+				"51916CA8E46D9E22"
+				"6F448581B85F3CBF"
+			]
+			id: "5F0F294BCD178704"
+			tasks: [{
+				id: "0956A2EC0DBA04A6"
+				type: "checkmark"
+				title: "Complete"
+			}]
+			rewards: [{
+				id: "71A419E8C8511231"
+				type: "item"
+				item: {
+					id: "kibe:angel_ring"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			x: 3.6d
+			y: 2.0d
+			shape: "circle"
+			id: "08ECE74F3241EA57"
+			tasks: [{
+				id: "173B743650798E0B"
+				type: "checkmark"
+				title: "Begin Journal"
+				icon: "minecraft:player_head"
+			}]
+			rewards: [{
+				id: "09F74C1135C1F45E"
+				type: "item"
+				item: "minecraft:golden_apple"
+			}]
+		}
+	]
+}

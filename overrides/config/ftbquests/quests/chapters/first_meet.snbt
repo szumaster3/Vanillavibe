@@ -1,0 +1,165 @@
+{
+	id: "4EE353A38EDE87DB"
+	group: "293A0E7F313C58DC"
+	order_index: 5
+	filename: "first_meet"
+	title: "First Meet"
+	icon: "platforms:wrench"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: 0.0d
+			y: 0.0d
+			dependencies: ["07055093A35CA6DE"]
+			id: "0364C4BF4E122C34"
+			tasks: [{
+				id: "3E00AEE27F6C77A8"
+				type: "item"
+				item: "appliedenergistics2:certus_quartz_wrench"
+			}]
+			rewards: [{
+				id: "60028FA5C95C4B89"
+				type: "item"
+				item: "indrev:energy_upgrade"
+			}]
+		}
+		{
+			x: 1.0d
+			y: 0.0d
+			dependencies: ["07055093A35CA6DE"]
+			id: "297634CDF3A9CFBF"
+			tasks: [{
+				id: "41DA0B9DFF66ADA0"
+				type: "item"
+				item: "appliedenergistics2:nether_quartz_wrench"
+			}]
+			rewards: [{
+				id: "535EDEF14AD3B0F3"
+				type: "item"
+				item: {
+					id: "appliedenergistics2:color_applicator"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -1.0d
+			y: 0.0d
+			dependencies: ["07055093A35CA6DE"]
+			dependency_requirement: "one_started"
+			id: "532E721B1EC27F88"
+			tasks: [{
+				id: "5EF7ADBF3B582ADD"
+				type: "item"
+				item: "bitsandchisels:wrench"
+			}]
+			rewards: [{
+				id: "66D6E052C38AD569"
+				type: "item"
+				item: "minecraft:music_disc_wait"
+			}]
+		}
+		{
+			x: -2.0d
+			y: 0.0d
+			dependencies: ["07055093A35CA6DE"]
+			id: "44E1BC27684EE814"
+			tasks: [{
+				id: "5442E335CF978DC3"
+				type: "item"
+				item: "indrev:wrench"
+			}]
+			rewards: [{
+				id: "3C740D59405A6C7E"
+				type: "item"
+				item: "indrev:tungsten_ore"
+				count: 11
+				random_bonus: 5
+			}]
+		}
+		{
+			x: -3.0d
+			y: 0.0d
+			dependencies: ["07055093A35CA6DE"]
+			id: "4A849CEBF045CDF8"
+			tasks: [{
+				id: "360699A5C9EF683F"
+				type: "item"
+				item: "modern_industrialization:wrench"
+			}]
+			rewards: [{
+				id: "510725AD8A194E87"
+				type: "item"
+				item: "modern_industrialization:aluminum_block"
+			}]
+		}
+		{
+			x: -4.0d
+			y: 0.0d
+			dependencies: ["07055093A35CA6DE"]
+			id: "3BC33A3A067CF309"
+			tasks: [{
+				id: "3E9561E6394FF672"
+				type: "item"
+				item: "platforms:wrench"
+			}]
+			rewards: [{
+				id: "09BD743B2056CA32"
+				type: "item"
+				item: {
+					id: "platforms:flat"
+					Count: 1b
+					tag: {
+						BlockEntityTag: {
+							frame_texture_item: {
+								id: "minecraft:oak_planks"
+								Count: 1b
+							}
+							cover_texture_item: {
+								id: "minecraft:oak_planks"
+								Count: 1b
+							}
+						}
+					}
+				}
+				count: 15
+				random_bonus: 15
+			}]
+		}
+		{
+			x: -5.0d
+			y: 0.0d
+			dependencies: ["07055093A35CA6DE"]
+			id: "3469E471A0EFC8F6"
+			tasks: [{
+				id: "7CBB5501FAE970A7"
+				type: "item"
+				item: "techreborn:wrench"
+			}]
+			rewards: [{
+				id: "0D78DC0783E839E1"
+				type: "item"
+				icon: "agape_space:copper_ore"
+				item: "techreborn:copper_ore"
+				count: 18
+				random_bonus: 10
+			}]
+		}
+		{
+			title: "Meet the Tech \\& Others"
+			x: -2.0d
+			y: 2.0d
+			id: "07055093A35CA6DE"
+			tasks: [{
+				id: "130B176E982952CD"
+				type: "item"
+				disable_toast: true
+				item: "minecraft:soul_torch"
+			}]
+		}
+	]
+}

@@ -1,0 +1,705 @@
+{
+	id: "57E153E6F8953221"
+	group: "13E5EF03951BCD7C"
+	order_index: 2
+	filename: "smelting_chapter"
+	title: "&fFurnances"
+	icon: "minecraft:blast_furnace"
+	default_quest_shape: "square"
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: 1.5d
+			y: -4.5d
+			dependencies: [
+				"3BDAAC7EEF588682"
+				"01EC846EF13A1A04"
+			]
+			id: "2CE792B9141A06DA"
+			tasks: [{
+				id: "719B8D899AE8F038"
+				type: "item"
+				item: "fabric-furnaces:gold_furnace"
+			}]
+			rewards: [{
+				id: "791552258B316C19"
+				type: "loot"
+				table_id: 3279900820427924797L
+			}]
+		}
+		{
+			x: 1.5d
+			y: -6.0d
+			dependencies: [
+				"2CE792B9141A06DA"
+				"3BDAAC7EEF588682"
+				"01EC846EF13A1A04"
+			]
+			id: "66C461243D41BD4D"
+			tasks: [{
+				id: "7B6D906880215CCD"
+				type: "item"
+				item: "fabric-furnaces:diamond_furnace"
+			}]
+			rewards: [{
+				id: "2B39D00B5158C279"
+				type: "loot"
+				table_id: 3279900820427924797L
+			}]
+		}
+		{
+			x: 1.5d
+			y: -3.0d
+			dependencies: ["01EC846EF13A1A04"]
+			id: "3BDAAC7EEF588682"
+			tasks: [{
+				id: "077B253E94FD9775"
+				type: "item"
+				item: "fabric-furnaces:iron_furnace"
+			}]
+			rewards: [{
+				id: "01FF9FB3E1654E9D"
+				type: "loot"
+				table_id: 3279900820427924797L
+			}]
+		}
+		{
+			x: 1.5d
+			y: -1.5d
+			dependencies: ["170C3A3A9699F3F4"]
+			id: "01EC846EF13A1A04"
+			tasks: [{
+				id: "5F796882F919C0C3"
+				type: "item"
+				item: "fabric-furnaces:fabric_furnace"
+			}]
+			rewards: [{
+				id: "3C7BB07BFAED0907"
+				type: "loot"
+				table_id: 3279900820427924797L
+			}]
+		}
+		{
+			x: 1.5d
+			y: -7.5d
+			dependencies: [
+				"66C461243D41BD4D"
+				"2CE792B9141A06DA"
+				"3BDAAC7EEF588682"
+				"01EC846EF13A1A04"
+			]
+			id: "4E8497E3BA683A37"
+			tasks: [{
+				id: "77AE7E957BC44486"
+				type: "item"
+				item: "fabric-furnaces:obsidian_furnace"
+			}]
+			rewards: [{
+				id: "5DD0397669E43EB9"
+				type: "loot"
+				table_id: 3279900820427924797L
+			}]
+		}
+		{
+			x: 1.5d
+			y: -9.0d
+			dependencies: [
+				"4E8497E3BA683A37"
+				"66C461243D41BD4D"
+				"2CE792B9141A06DA"
+				"3BDAAC7EEF588682"
+				"01EC846EF13A1A04"
+			]
+			id: "72534D389CD7ECB3"
+			tasks: [{
+				id: "039B419321CAA1F7"
+				type: "item"
+				item: "fabric-furnaces:nether_furnace"
+			}]
+			rewards: [{
+				id: "651D2CA2009D7490"
+				type: "loot"
+				table_id: 3279900820427924797L
+			}]
+		}
+		{
+			x: 3.0d
+			y: -1.5d
+			dependencies: ["01EC846EF13A1A04"]
+			id: "60BC90D21659A201"
+			tasks: [{
+				id: "24F860D426C35237"
+				type: "item"
+				item: "fabric-furnaces:crystal_fabric_furnace"
+			}]
+			rewards: [{
+				id: "114FBBB064D57D6E"
+				type: "loot"
+				table_id: 3279900820427924797L
+			}]
+		}
+		{
+			x: 3.0d
+			y: -3.0d
+			dependencies: ["3BDAAC7EEF588682"]
+			id: "542A4FB92F6DF7F9"
+			tasks: [{
+				id: "729CD5CD1E048FE7"
+				type: "item"
+				item: "fabric-furnaces:crystal_iron_furnace"
+			}]
+			rewards: [{
+				id: "5D84B31E56C2DA1D"
+				type: "loot"
+				table_id: 3279900820427924797L
+			}]
+		}
+		{
+			x: 3.0d
+			y: -4.5d
+			dependencies: ["2CE792B9141A06DA"]
+			id: "721EF168ABEB99DF"
+			tasks: [{
+				id: "539CC77CB932D93E"
+				type: "item"
+				item: "fabric-furnaces:crystal_gold_furnace"
+			}]
+			rewards: [{
+				id: "7DF21F7EFC9FB810"
+				type: "loot"
+				table_id: 3279900820427924797L
+			}]
+		}
+		{
+			x: 3.0d
+			y: -6.0d
+			dependencies: ["66C461243D41BD4D"]
+			id: "295349E1E13129E5"
+			tasks: [{
+				id: "2F7CE7803832CB0C"
+				type: "item"
+				item: "fabric-furnaces:crystal_diamond_furnace"
+			}]
+			rewards: [{
+				id: "20485B6810C6640D"
+				type: "loot"
+				table_id: 3279900820427924797L
+			}]
+		}
+		{
+			x: 3.0d
+			y: -7.5d
+			dependencies: ["4E8497E3BA683A37"]
+			id: "68CD1AD80618B869"
+			tasks: [{
+				id: "09972E1DEDD41895"
+				type: "item"
+				item: "fabric-furnaces:crystal_obsidian_furnace"
+			}]
+			rewards: [{
+				id: "4B32980D79798DFF"
+				type: "loot"
+				table_id: 3279900820427924797L
+			}]
+		}
+		{
+			x: 3.0d
+			y: -9.0d
+			dependencies: ["72534D389CD7ECB3"]
+			id: "5ADDB5AA6259521F"
+			tasks: [{
+				id: "653A60F77FFC5348"
+				type: "item"
+				item: "fabric-furnaces:crystal_nether_furnace"
+			}]
+			rewards: [{
+				id: "452C37B69F9663D4"
+				type: "loot"
+				table_id: 3279900820427924797L
+			}]
+		}
+		{
+			x: 1.5d
+			y: -10.5d
+			dependencies: [
+				"72534D389CD7ECB3"
+				"4E8497E3BA683A37"
+				"66C461243D41BD4D"
+				"2CE792B9141A06DA"
+				"3BDAAC7EEF588682"
+				"01EC846EF13A1A04"
+			]
+			id: "0FB0DFEA1E3DC1E9"
+			tasks: [{
+				id: "7F6609C46AAEB91D"
+				type: "item"
+				item: "fabric-furnaces:emerald_furnace"
+			}]
+			rewards: [{
+				id: "40B24BCC2965B348"
+				type: "loot"
+				table_id: 3279900820427924797L
+			}]
+		}
+		{
+			x: 1.5d
+			y: -12.0d
+			dependencies: [
+				"0FB0DFEA1E3DC1E9"
+				"72534D389CD7ECB3"
+				"4E8497E3BA683A37"
+				"66C461243D41BD4D"
+				"2CE792B9141A06DA"
+				"3BDAAC7EEF588682"
+				"01EC846EF13A1A04"
+			]
+			id: "309A01E85D308B83"
+			tasks: [{
+				id: "67E27646499668A7"
+				type: "item"
+				item: "fabric-furnaces:end_furnace"
+			}]
+			rewards: [{
+				id: "7F01B72A5E5218E6"
+				type: "loot"
+				table_id: 3279900820427924797L
+			}]
+		}
+		{
+			x: 1.5d
+			y: -13.5d
+			dependencies: [
+				"309A01E85D308B83"
+				"66C461243D41BD4D"
+				"0FB0DFEA1E3DC1E9"
+				"2CE792B9141A06DA"
+				"3BDAAC7EEF588682"
+				"72534D389CD7ECB3"
+				"4E8497E3BA683A37"
+				"01EC846EF13A1A04"
+			]
+			id: "50B86A8FD8B3BC81"
+			tasks: [{
+				id: "5C84B0C02E9B6994"
+				type: "item"
+				item: "fabric-furnaces:ethereal_furnace"
+			}]
+			rewards: [{
+				id: "2A2A587C4E19B452"
+				type: "loot"
+				table_id: 3279900820427924797L
+			}]
+		}
+		{
+			x: 3.0d
+			y: -10.5d
+			dependencies: ["0FB0DFEA1E3DC1E9"]
+			id: "3C33E3C78660B7DE"
+			tasks: [{
+				id: "1BEDB18074AF11E7"
+				type: "item"
+				item: "fabric-furnaces:crystal_emerald_furnace"
+			}]
+			rewards: [{
+				id: "5E1ED99E63D7D115"
+				type: "loot"
+				table_id: 3279900820427924797L
+			}]
+		}
+		{
+			x: 3.0d
+			y: -12.0d
+			dependencies: ["309A01E85D308B83"]
+			id: "7F076C87DCFF99E9"
+			tasks: [{
+				id: "4C11CC99086073BC"
+				type: "item"
+				item: "fabric-furnaces:crystal_end_furnace"
+			}]
+			rewards: [{
+				id: "5EB6B357AB8F359D"
+				type: "loot"
+				table_id: 3279900820427924797L
+			}]
+		}
+		{
+			x: 3.0d
+			y: -13.5d
+			dependencies: ["50B86A8FD8B3BC81"]
+			id: "21D3C24B05CA61D4"
+			tasks: [{
+				id: "626D1B916C121B15"
+				type: "item"
+				item: "fabric-furnaces:crystal_ethereal_furnace"
+			}]
+			rewards: [{
+				id: "16F2F9F81B568658"
+				type: "loot"
+				table_id: 3279900820427924797L
+			}]
+		}
+		{
+			x: 0.0d
+			y: -1.5d
+			hide_dependency_lines: false
+			dependencies: ["170C3A3A9699F3F4"]
+			dependency_requirement: "one_completed"
+			id: "6FF921F4FAC54ECD"
+			tasks: [{
+				id: "5303ACF9EFBCA471"
+				type: "item"
+				item: "minecraft:blast_furnace"
+			}]
+			rewards: [{
+				id: "089FD17633D81EF8"
+				type: "loot"
+				table_id: 3279900820427924797L
+			}]
+		}
+		{
+			x: 0.0d
+			y: -4.5d
+			dependencies: [
+				"1CB4553CA27F062C"
+				"6FF921F4FAC54ECD"
+				"170C3A3A9699F3F4"
+			]
+			id: "4CCF7E21DF97554B"
+			tasks: [{
+				id: "0786205E43537BF2"
+				type: "item"
+				item: "betterend:flavolite_furnace"
+			}]
+			rewards: [{
+				id: "4492963E56CAEB33"
+				type: "loot"
+				table_id: 3279900820427924797L
+			}]
+		}
+		{
+			x: 0.0d
+			y: -7.5d
+			dependencies: [
+				"5242A3F0B5EF841C"
+				"6FF921F4FAC54ECD"
+				"4CCF7E21DF97554B"
+				"1CB4553CA27F062C"
+				"170C3A3A9699F3F4"
+			]
+			id: "0A1EA356C8EB341F"
+			tasks: [{
+				id: "407214B481F7DACB"
+				type: "item"
+				item: "betterend:violecite_furnace"
+			}]
+			rewards: [{
+				id: "3C39EF2282E14A8D"
+				type: "loot"
+				table_id: 3279900820427924797L
+			}]
+		}
+		{
+			x: 0.0d
+			y: -12.0d
+			dependencies: [
+				"78EA4EDF81100064"
+				"6FF921F4FAC54ECD"
+				"0A1EA356C8EB341F"
+				"51399856CFABDDE4"
+				"170C3A3A9699F3F4"
+				"4CCF7E21DF97554B"
+				"1CB4553CA27F062C"
+				"5242A3F0B5EF841C"
+			]
+			dependency_requirement: "one_started"
+			id: "1BE1A231F91F92A2"
+			tasks: [{
+				id: "6719949B56A7A8EB"
+				type: "item"
+				item: "betterend:sulphuric_rock_furnace"
+			}]
+			rewards: [{
+				id: "58064E076FD7B300"
+				type: "loot"
+				table_id: 3279900820427924797L
+			}]
+		}
+		{
+			x: 0.0d
+			y: -9.0d
+			dependencies: [
+				"0A1EA356C8EB341F"
+				"6FF921F4FAC54ECD"
+				"170C3A3A9699F3F4"
+				"4CCF7E21DF97554B"
+				"1CB4553CA27F062C"
+			]
+			id: "51399856CFABDDE4"
+			tasks: [{
+				id: "375E4C243F9BA3DF"
+				type: "item"
+				item: "betterend:virid_jadestone_furnace"
+			}]
+			rewards: [{
+				id: "379CF4B60ACC2CA4"
+				type: "loot"
+				table_id: 3279900820427924797L
+			}]
+		}
+		{
+			x: 0.0d
+			y: -10.5d
+			dependencies: [
+				"51399856CFABDDE4"
+				"0A1EA356C8EB341F"
+				"6FF921F4FAC54ECD"
+				"4CCF7E21DF97554B"
+				"1CB4553CA27F062C"
+				"170C3A3A9699F3F4"
+			]
+			id: "78EA4EDF81100064"
+			tasks: [{
+				id: "4CF1A2AF622E040B"
+				type: "item"
+				item: "betterend:azure_jadestone_furnace"
+			}]
+			rewards: [{
+				id: "0CBE8D239821666D"
+				type: "loot"
+				table_id: 3279900820427924797L
+			}]
+		}
+		{
+			x: 0.0d
+			y: -6.0d
+			dependencies: [
+				"4CCF7E21DF97554B"
+				"6FF921F4FAC54ECD"
+				"170C3A3A9699F3F4"
+				"1CB4553CA27F062C"
+			]
+			id: "5242A3F0B5EF841C"
+			tasks: [{
+				id: "38205A0EF3D38F6F"
+				type: "item"
+				item: "betterend:sandy_jadestone_furnace"
+			}]
+			rewards: [{
+				id: "02C822440A6C5B6E"
+				type: "loot"
+				table_id: 3279900820427924797L
+			}]
+		}
+		{
+			x: 0.0d
+			y: -3.0d
+			dependencies: [
+				"6FF921F4FAC54ECD"
+				"170C3A3A9699F3F4"
+			]
+			id: "1CB4553CA27F062C"
+			tasks: [{
+				id: "70AB8CB327801792"
+				type: "item"
+				item: "betterend:end_stone_furnace"
+			}]
+			rewards: [{
+				id: "4EF6115854AD69BD"
+				type: "loot"
+				table_id: 3279900820427924797L
+			}]
+		}
+		{
+			x: -1.5d
+			y: -1.5d
+			dependencies: ["170C3A3A9699F3F4"]
+			id: "758E184ED69F054F"
+			tasks: [{
+				id: "6EEA48A8A99006A3"
+				type: "item"
+				item: "minecraft:minecart"
+			}]
+			rewards: [{
+				id: "4071D8F58864700F"
+				type: "loot"
+				table_id: 3279900820427924797L
+			}]
+		}
+		{
+			x: 0.0d
+			y: 1.5d
+			subtitle: "Start Quest"
+			id: "170C3A3A9699F3F4"
+			tasks: [{
+				id: "5300F23226154EFA"
+				type: "item"
+				item: "minecraft:furnace"
+			}]
+			rewards: [{
+				id: "52A5AB5A3D1FCE6A"
+				type: "loot"
+				table_id: 3279900820427924797L
+			}]
+		}
+		{
+			title: "&9Final Quest"
+			x: 1.5d
+			y: -17.5d
+			subtitle: "&cCongratulations! &fThat was the last assignment in this chapter, good luck in the next tasks!"
+			dependencies: [
+				"50B86A8FD8B3BC81"
+				"21D3C24B05CA61D4"
+				"1BE1A231F91F92A2"
+				"470C74570CE78B58"
+			]
+			id: "7371A466F2631373"
+			tasks: [{
+				id: "4B4C68FB09869502"
+				type: "item"
+				item: "minecraft:tnt_minecart"
+			}]
+			rewards: [
+				{
+					id: "74E7E065270558C4"
+					type: "item"
+					item: "minecraft:command_block_minecart"
+				}
+				{
+					id: "26DA3C2D19F732DA"
+					type: "loot"
+					table_id: 3279900820427924797L
+				}
+				{
+					id: "2D276F68D12C16DD"
+					type: "item"
+					item: "techreborn:industrial_blast_furnace"
+				}
+			]
+		}
+		{
+			x: -1.5d
+			y: -3.0d
+			dependencies: ["758E184ED69F054F"]
+			id: "597FACC48F3E05F8"
+			tasks: [{
+				id: "2568850977B07C58"
+				type: "item"
+				item: "minecraft:chest_minecart"
+			}]
+			rewards: [{
+				id: "2A75975627ADE8C7"
+				type: "loot"
+				table_id: 3279900820427924797L
+			}]
+		}
+		{
+			x: -1.5d
+			y: -4.5d
+			dependencies: [
+				"597FACC48F3E05F8"
+				"758E184ED69F054F"
+			]
+			id: "7D4DAE79523E07EB"
+			tasks: [{
+				id: "7584F9D35384BC36"
+				type: "item"
+				item: "minecraft:furnace_minecart"
+			}]
+			rewards: [{
+				id: "272428CDA1D192EB"
+				type: "loot"
+				table_id: 3279900820427924797L
+			}]
+		}
+		{
+			x: -1.5d
+			y: -12.0d
+			dependencies: [
+				"3FC8B66ACEABCBEB"
+				"597FACC48F3E05F8"
+				"7D4DAE79523E07EB"
+				"758E184ED69F054F"
+				"2B227B115249CED2"
+			]
+			id: "470C74570CE78B58"
+			tasks: [{
+				id: "75D250E1713E44D1"
+				type: "item"
+				item: "sandwichable:sandwich_table_minecart"
+			}]
+			rewards: [{
+				id: "14792D0D8F22C2BE"
+				type: "loot"
+				table_id: 3279900820427924797L
+			}]
+		}
+		{
+			x: -1.5d
+			y: -6.0d
+			dependencies: [
+				"7D4DAE79523E07EB"
+				"597FACC48F3E05F8"
+				"758E184ED69F054F"
+			]
+			id: "3FC8B66ACEABCBEB"
+			tasks: [{
+				id: "2951E3B22F65C90D"
+				type: "item"
+				item: "minecraft:hopper_minecart"
+			}]
+			rewards: [{
+				id: "696013962A46A5DC"
+				type: "loot"
+				table_id: 3279900820427924797L
+			}]
+		}
+		{
+			x: -1.5d
+			y: 1.5d
+			dependencies: ["170C3A3A9699F3F4"]
+			id: "3D482A60B7B79E5C"
+			tasks: [{
+				id: "73F4B51A736631ED"
+				type: "item"
+				item: "minecraft:smoker"
+			}]
+			rewards: [
+				{
+					id: "27A7EE5B2632F308"
+					type: "loot"
+					table_id: 3279900820427924797L
+				}
+				{
+					id: "04B8FF37DFB5DBC3"
+					type: "item"
+					item: "improved-stations:furnace_slab"
+				}
+				{
+					id: "2D907F4BB9B991BD"
+					type: "item"
+					item: "improved-stations:blast_furnace_slab"
+				}
+			]
+		}
+		{
+			x: -1.5d
+			y: -7.5d
+			dependencies: [
+				"758E184ED69F054F"
+				"3FC8B66ACEABCBEB"
+				"597FACC48F3E05F8"
+			]
+			id: "2B227B115249CED2"
+			tasks: [{
+				id: "267F269F8EEC31EC"
+				type: "item"
+				item: "etched:jukebox_minecart"
+			}]
+			rewards: [{
+				id: "5413FC380D21791A"
+				type: "loot"
+				table_id: 3279900820427924797L
+			}]
+		}
+	]
+}

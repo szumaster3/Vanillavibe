@@ -1,0 +1,976 @@
+{
+	id: "5E4F50DFE556ACE2"
+	group: "67AEA43179997299"
+	order_index: 0
+	filename: "space_dimension"
+	title: "&fSpace"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: 0.0d
+			y: 0.0d
+			id: "69B68F344D0F620D"
+			tasks: [{
+				id: "153A6AC8D96FB36E"
+				type: "item"
+				item: {
+					id: "agape_space:package_item"
+					Count: 1b
+					tag: {
+						contents: { }
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "4ACE8216E8F106E0"
+					type: "loot"
+					table_id: 3133982820876343405L
+				}
+				{
+					id: "6C7CB1AA37ACFC67"
+					type: "loot"
+					table_id: 5705109811401542117L
+				}
+				{
+					id: "4893159ACED925D6"
+					type: "loot"
+					table_id: 3279900820427924797L
+				}
+			]
+		}
+		{
+			x: 1.0d
+			y: -3.5d
+			id: "383D1EE33A0AE98A"
+			tasks: [{
+				id: "7A7808D9E4EDC1CB"
+				type: "item"
+				item: "agape_space:machinist_station"
+			}]
+			rewards: [
+				{
+					id: "5787AB5A59A33439"
+					type: "loot"
+					table_id: 3133982820876343405L
+				}
+				{
+					id: "124420918CCB8C8A"
+					type: "loot"
+					table_id: 5705109811401542117L
+				}
+				{
+					id: "0C08EF0EF8531558"
+					type: "loot"
+					table_id: 3279900820427924797L
+				}
+			]
+		}
+		{
+			x: 1.0d
+			y: -4.5d
+			id: "32D2C3CACAD5E46C"
+			tasks: [{
+				id: "5F34775AE2BB0531"
+				type: "item"
+				item: "agape_space:redstone_motor"
+			}]
+			rewards: [
+				{
+					id: "05589864B35CF716"
+					type: "loot"
+					table_id: 3133982820876343405L
+				}
+				{
+					id: "5C40C39D6EB137E8"
+					type: "loot"
+					table_id: 5705109811401542117L
+				}
+				{
+					id: "2E97B10EAE2F46C4"
+					type: "loot"
+					table_id: 3279900820427924797L
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: -1.0d
+			dependencies: ["69B68F344D0F620D"]
+			id: "1B4606F123CBD01C"
+			tasks: [{
+				id: "732E70225FB891B6"
+				type: "item"
+				item: "agape_space:metal_block"
+			}]
+			rewards: [
+				{
+					id: "5F4AF596AAB995B8"
+					type: "loot"
+					table_id: 3133982820876343405L
+				}
+				{
+					id: "190FC4276EFB5C2B"
+					type: "loot"
+					table_id: 5705109811401542117L
+				}
+				{
+					id: "3AFB91D8DD36A346"
+					type: "loot"
+					table_id: 3279900820427924797L
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: -2.0d
+			dependencies: ["1B4606F123CBD01C"]
+			id: "6B5238B286864EE7"
+			tasks: [{
+				id: "29E869242D82F7FC"
+				type: "item"
+				item: "agape_space:metal_column"
+			}]
+			rewards: [
+				{
+					id: "0AB2D708898C065B"
+					type: "loot"
+					table_id: 3133982820876343405L
+				}
+				{
+					id: "7C85C172C178CC90"
+					type: "loot"
+					table_id: 5705109811401542117L
+				}
+				{
+					id: "5D154547090EC4BE"
+					type: "loot"
+					table_id: 3279900820427924797L
+				}
+			]
+		}
+		{
+			x: 0.5d
+			y: -5.5d
+			id: "408A363ED3C99CA5"
+			tasks: [{
+				id: "7F7B8B8D69D954A8"
+				type: "item"
+				item: "agape_space:gearbox"
+			}]
+			rewards: [
+				{
+					id: "703F1C3C0883EFA2"
+					type: "loot"
+					table_id: 3133982820876343405L
+				}
+				{
+					id: "13424C1C7F54B0BC"
+					type: "loot"
+					table_id: 5705109811401542117L
+				}
+				{
+					id: "2800C3F0E9206CC3"
+					type: "loot"
+					table_id: 3279900820427924797L
+				}
+			]
+		}
+		{
+			x: -0.5d
+			y: -5.5d
+			id: "07DD31054166C8AF"
+			tasks: [{
+				id: "5B8C7A5CDC9A7179"
+				type: "item"
+				item: "agape_space:powergen"
+			}]
+			rewards: [
+				{
+					id: "7A2723B6995FF52B"
+					type: "loot"
+					table_id: 3133982820876343405L
+				}
+				{
+					id: "36DC78985F501FCB"
+					type: "loot"
+					table_id: 5705109811401542117L
+				}
+				{
+					id: "4B782CFF04565A28"
+					type: "loot"
+					table_id: 3279900820427924797L
+				}
+			]
+		}
+		{
+			x: 4.5d
+			y: -2.0d
+			dependencies: ["41EE29CAABCC4C0D"]
+			id: "2EC3FF9CB2FAB4DD"
+			tasks: [{
+				id: "7DE1E133C672F2BB"
+				type: "item"
+				item: "agape_space:green_lamp"
+			}]
+			rewards: [
+				{
+					id: "4B50AD0B324CED69"
+					type: "loot"
+					table_id: 3133982820876343405L
+				}
+				{
+					id: "02AD831442ED2151"
+					type: "loot"
+					table_id: 5705109811401542117L
+				}
+				{
+					id: "720070EBA4960038"
+					type: "loot"
+					table_id: 3279900820427924797L
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: -3.0d
+			id: "4D6353DC59A2D7F3"
+			tasks: [{
+				id: "3D2CC6F77792EA5B"
+				type: "item"
+				item: "agape_space:red_lamp"
+			}]
+			rewards: [
+				{
+					id: "595916ACA7E364B6"
+					type: "loot"
+					table_id: 3133982820876343405L
+				}
+				{
+					id: "0DC7816B829462B6"
+					type: "loot"
+					table_id: 5705109811401542117L
+				}
+				{
+					id: "016CB1DF3E58F32B"
+					type: "loot"
+					table_id: 3279900820427924797L
+				}
+			]
+		}
+		{
+			x: 3.5d
+			y: -5.5d
+			dependencies: [
+				"4ADBB0BBC50494E5"
+				"43258ED224E5EB06"
+			]
+			id: "4AA3850AA0176FA2"
+			tasks: [{
+				id: "3F097C7F98B805DB"
+				type: "item"
+				item: {
+					id: "agape_space:enviro_feet"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "40DB3BD6DBC46188"
+					type: "loot"
+					table_id: 3133982820876343405L
+				}
+				{
+					id: "75B58A1EE9A8AFE7"
+					type: "loot"
+					table_id: 5705109811401542117L
+				}
+				{
+					id: "783E76B97AFD6D22"
+					type: "loot"
+					table_id: 3279900820427924797L
+				}
+			]
+		}
+		{
+			x: 5.5d
+			y: -5.5d
+			dependencies: [
+				"44B94438AFEEAE75"
+				"4ADBB0BBC50494E5"
+			]
+			id: "681B744400A62C45"
+			tasks: [{
+				id: "5628E404BE3DDDB7"
+				type: "item"
+				item: {
+					id: "agape_space:cooling_feet"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "3C1D1D8218962F38"
+					type: "loot"
+					table_id: 3133982820876343405L
+				}
+				{
+					id: "27658042FB9485E7"
+					type: "loot"
+					table_id: 5705109811401542117L
+				}
+				{
+					id: "4C5BAEC1806F7085"
+					type: "loot"
+					table_id: 3279900820427924797L
+				}
+			]
+		}
+		{
+			x: 5.5d
+			y: -7.0d
+			dependencies: ["681B744400A62C45"]
+			id: "7FBDEA4352D19578"
+			tasks: [{
+				id: "082CAA48534C1848"
+				type: "item"
+				item: {
+					id: "agape_space:cooling_legs"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "0E0DDCB525A1BE7D"
+					type: "loot"
+					table_id: 3133982820876343405L
+				}
+				{
+					id: "144DD94029C6BC64"
+					type: "loot"
+					table_id: 5705109811401542117L
+				}
+				{
+					id: "6D83DFBC2D83B583"
+					type: "loot"
+					table_id: 3279900820427924797L
+				}
+			]
+		}
+		{
+			x: 3.5d
+			y: -7.0d
+			dependencies: ["4AA3850AA0176FA2"]
+			id: "7319EDBCB6FCAB20"
+			tasks: [{
+				id: "6CB1528408E7421B"
+				type: "item"
+				item: {
+					id: "agape_space:enviro_legs"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "062A9362BCC834A7"
+					type: "loot"
+					table_id: 3133982820876343405L
+				}
+				{
+					id: "00C74BC3FFFDB5AD"
+					type: "loot"
+					table_id: 5705109811401542117L
+				}
+				{
+					id: "05D67B68358E8CBB"
+					type: "loot"
+					table_id: 3279900820427924797L
+				}
+			]
+		}
+		{
+			x: 3.5d
+			y: -8.5d
+			dependencies: ["7319EDBCB6FCAB20"]
+			id: "6440572BB14B7104"
+			tasks: [{
+				id: "06F3CC1302B831C0"
+				type: "item"
+				item: {
+					id: "agape_space:enviro_armor"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "629E15B20ACCFF92"
+					type: "loot"
+					table_id: 3133982820876343405L
+				}
+				{
+					id: "7DEB091DC354BEAF"
+					type: "loot"
+					table_id: 5705109811401542117L
+				}
+				{
+					id: "0BCA07D5E146118D"
+					type: "loot"
+					table_id: 3279900820427924797L
+				}
+			]
+		}
+		{
+			x: 5.5d
+			y: -8.5d
+			dependencies: ["7FBDEA4352D19578"]
+			id: "192477ADF2C1C664"
+			tasks: [{
+				id: "30776F20B8BD02EF"
+				type: "item"
+				item: {
+					id: "agape_space:cooling_armor"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "2B65E2AB969DD5F3"
+					type: "loot"
+					table_id: 3133982820876343405L
+				}
+				{
+					id: "57FC8C4AEEC87556"
+					type: "loot"
+					table_id: 5705109811401542117L
+				}
+				{
+					id: "77B647A8ACAE0C16"
+					type: "loot"
+					table_id: 3279900820427924797L
+				}
+			]
+		}
+		{
+			x: 5.5d
+			y: -10.0d
+			dependencies: ["192477ADF2C1C664"]
+			id: "21EF359855CF9070"
+			tasks: [{
+				id: "7208478DC4AB8DE8"
+				type: "item"
+				item: {
+					id: "agape_space:cooling_helmet"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "13676D177E5F3042"
+					type: "loot"
+					table_id: 3133982820876343405L
+				}
+				{
+					id: "56578C0363308840"
+					type: "loot"
+					table_id: 5705109811401542117L
+				}
+				{
+					id: "61CA09C6DE82723F"
+					type: "loot"
+					table_id: 3279900820427924797L
+				}
+			]
+		}
+		{
+			x: 3.5d
+			y: -10.0d
+			dependencies: ["6440572BB14B7104"]
+			id: "3A0601E411236C12"
+			tasks: [{
+				id: "36BB239376BAB960"
+				type: "item"
+				item: {
+					id: "agape_space:enviro_helmet"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "66EBD8826C39F4C8"
+					type: "loot"
+					table_id: 3133982820876343405L
+				}
+				{
+					id: "33A5C0140DA46B35"
+					type: "loot"
+					table_id: 5705109811401542117L
+				}
+				{
+					id: "75DCBC45350AAFCD"
+					type: "loot"
+					table_id: 3279900820427924797L
+				}
+			]
+		}
+		{
+			x: 6.5d
+			y: -4.5d
+			dependencies: ["2EC3FF9CB2FAB4DD"]
+			id: "44B94438AFEEAE75"
+			tasks: [{
+				id: "306042E843890DAE"
+				type: "item"
+				item: "agape_space:launch_solution_mars"
+			}]
+			rewards: [
+				{
+					id: "44E344662AE422E7"
+					type: "loot"
+					table_id: 3133982820876343405L
+				}
+				{
+					id: "287CD3A77E198451"
+					type: "loot"
+					table_id: 5705109811401542117L
+				}
+				{
+					id: "2614FF78836B9E3A"
+					type: "loot"
+					table_id: 3279900820427924797L
+				}
+			]
+		}
+		{
+			x: 4.5d
+			y: -4.5d
+			dependencies: ["2EC3FF9CB2FAB4DD"]
+			id: "4ADBB0BBC50494E5"
+			tasks: [{
+				id: "35875D1115AC0333"
+				type: "item"
+				item: "agape_space:launch_solution_ganymede"
+			}]
+			rewards: [
+				{
+					id: "71F7BAFE53B9D78F"
+					type: "loot"
+					table_id: 3133982820876343405L
+				}
+				{
+					id: "572EE66BE0FCC9AA"
+					type: "loot"
+					table_id: 5705109811401542117L
+				}
+				{
+					id: "4EFB283643DEB039"
+					type: "loot"
+					table_id: 3279900820427924797L
+				}
+			]
+		}
+		{
+			x: 2.5d
+			y: -4.5d
+			dependencies: ["2EC3FF9CB2FAB4DD"]
+			id: "43258ED224E5EB06"
+			tasks: [{
+				id: "48371838A7DFAE52"
+				type: "item"
+				item: "agape_space:launch_solution_mercury"
+			}]
+			rewards: [
+				{
+					id: "03F7CAAEAD9F1681"
+					type: "loot"
+					table_id: 3133982820876343405L
+				}
+				{
+					id: "40B957978884AF00"
+					type: "loot"
+					table_id: 5705109811401542117L
+				}
+				{
+					id: "0F8D111E3B9E3AB9"
+					type: "loot"
+					table_id: 3279900820427924797L
+				}
+			]
+		}
+		{
+			x: -1.0d
+			y: -3.5d
+			id: "28948EE1B690ED6D"
+			tasks: [{
+				id: "21185BEAE90118EC"
+				type: "item"
+				item: "agape_space:salvager_station"
+			}]
+			rewards: [
+				{
+					id: "177A238DEAB93422"
+					type: "loot"
+					table_id: 3133982820876343405L
+				}
+				{
+					id: "4359400DC2B7E81D"
+					type: "loot"
+					table_id: 5705109811401542117L
+				}
+				{
+					id: "47D8D8CAFD2B1676"
+					type: "loot"
+					table_id: 3279900820427924797L
+				}
+			]
+		}
+		{
+			x: -1.0d
+			y: -4.5d
+			id: "7FFD2ABF41298BC9"
+			tasks: [{
+				id: "688849243B689672"
+				type: "item"
+				item: "agape_space:solargen"
+			}]
+			rewards: [
+				{
+					id: "15ECBFDF66B28B4B"
+					type: "loot"
+					table_id: 3133982820876343405L
+				}
+				{
+					id: "403D0513B565EA7E"
+					type: "loot"
+					table_id: 5705109811401542117L
+				}
+				{
+					id: "29F1759C14C88653"
+					type: "loot"
+					table_id: 3279900820427924797L
+				}
+			]
+		}
+		{
+			x: 4.5d
+			y: -1.0d
+			dependencies: ["69B68F344D0F620D"]
+			id: "41EE29CAABCC4C0D"
+			tasks: [{
+				id: "20AEC2F83D2CE9F2"
+				type: "item"
+				item: "agape_space:build_platform"
+			}]
+			rewards: [
+				{
+					id: "6071587E0DF5AED8"
+					type: "loot"
+					table_id: 3133982820876343405L
+				}
+				{
+					id: "4CB422B4B1FE4EC9"
+					type: "loot"
+					table_id: 5705109811401542117L
+				}
+				{
+					id: "3165D29DD27061F0"
+					type: "loot"
+					table_id: 3279900820427924797L
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: -10.5d
+			id: "1A3D9E7ACE519606"
+			tasks: [{
+				id: "0FEDAE3B356EEFFD"
+				type: "item"
+				item: "agape_space:starship_engine"
+			}]
+			rewards: [
+				{
+					id: "7580A11C91B713E7"
+					type: "loot"
+					table_id: 3133982820876343405L
+				}
+				{
+					id: "3197D8775245D5A1"
+					type: "loot"
+					table_id: 5705109811401542117L
+				}
+				{
+					id: "4706E64BD1D72E46"
+					type: "loot"
+					table_id: 3279900820427924797L
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: -7.0d
+			dependencies: ["691F053A65F14987"]
+			id: "1DB30544697F0B96"
+			tasks: [{
+				id: "1304879F066C2A5C"
+				type: "item"
+				item: "agape_space:starship_conduit"
+			}]
+			rewards: [
+				{
+					id: "1B1B060114CB6CA3"
+					type: "loot"
+					table_id: 3133982820876343405L
+				}
+				{
+					id: "7EEC54BD68A7099A"
+					type: "loot"
+					table_id: 5705109811401542117L
+				}
+				{
+					id: "30EDCF990CB7407E"
+					type: "loot"
+					table_id: 3279900820427924797L
+				}
+			]
+		}
+		{
+			x: -1.0d
+			y: -8.0d
+			id: "03D2293EF29AFE4B"
+			tasks: [{
+				id: "56C6D276AB56B38A"
+				type: "item"
+				item: "agape_space:starship_powersource"
+			}]
+			rewards: [
+				{
+					id: "3941FD23DC3A6AAE"
+					type: "loot"
+					table_id: 3133982820876343405L
+				}
+				{
+					id: "51ADE00BCEB1966F"
+					type: "loot"
+					table_id: 5705109811401542117L
+				}
+				{
+					id: "37D9AC3EA3E7D438"
+					type: "loot"
+					table_id: 3279900820427924797L
+				}
+			]
+		}
+		{
+			x: 1.0d
+			y: -8.0d
+			id: "04E8D88AD093C6C4"
+			tasks: [{
+				id: "1CF8507C43D32147"
+				type: "item"
+				item: "agape_space:starship_control"
+			}]
+			rewards: [
+				{
+					id: "550303FEE07CD516"
+					type: "loot"
+					table_id: 3133982820876343405L
+				}
+				{
+					id: "615EA2768A5A12B4"
+					type: "loot"
+					table_id: 5705109811401542117L
+				}
+				{
+					id: "1AC71D4E71FDB861"
+					type: "loot"
+					table_id: 3279900820427924797L
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: -9.0d
+			id: "24CFF7C73E1718CD"
+			tasks: [{
+				id: "46C4FE4722565520"
+				type: "item"
+				item: "agape_space:starship_core"
+			}]
+			rewards: [
+				{
+					id: "3C62C3900B5C4353"
+					type: "loot"
+					table_id: 3133982820876343405L
+				}
+				{
+					id: "638E1C7404993618"
+					type: "loot"
+					table_id: 5705109811401542117L
+				}
+				{
+					id: "731F59C7DD0CEC85"
+					type: "loot"
+					table_id: 3279900820427924797L
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: -8.0d
+			dependencies: [
+				"1DB30544697F0B96"
+				"1A3D9E7ACE519606"
+				"03D2293EF29AFE4B"
+				"24CFF7C73E1718CD"
+				"04E8D88AD093C6C4"
+			]
+			id: "0F8E9D152D28B777"
+			tasks: [{
+				id: "3CA9CC11CD5F60E0"
+				type: "item"
+				item: "agape_space:starship_assembly"
+			}]
+			rewards: [
+				{
+					id: "750783595CD386DC"
+					type: "loot"
+					table_id: 3133982820876343405L
+				}
+				{
+					id: "4403D74AC5829AA3"
+					type: "loot"
+					table_id: 5705109811401542117L
+				}
+				{
+					id: "3DC126512B2EE11D"
+					type: "loot"
+					table_id: 3279900820427924797L
+				}
+			]
+		}
+		{
+			x: 4.5d
+			y: -11.5d
+			dependencies: [
+				"4ADBB0BBC50494E5"
+				"21EF359855CF9070"
+				"3A0601E411236C12"
+			]
+			id: "1942F0A66226E746"
+			tasks: [{
+				id: "4D442259FC298676"
+				type: "item"
+				item: "agape_space:portal_beam_fuel"
+			}]
+			rewards: [
+				{
+					id: "7092DA44FD9DD386"
+					type: "loot"
+					table_id: 3133982820876343405L
+				}
+				{
+					id: "22703A6F2100D1BC"
+					type: "loot"
+					table_id: 5705109811401542117L
+				}
+				{
+					id: "6884AA00BBEF6E72"
+					type: "loot"
+					table_id: 3279900820427924797L
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: -4.5d
+			dependencies: [
+				"07DD31054166C8AF"
+				"408A363ED3C99CA5"
+				"4D6353DC59A2D7F3"
+				"383D1EE33A0AE98A"
+				"7FFD2ABF41298BC9"
+				"28948EE1B690ED6D"
+				"32D2C3CACAD5E46C"
+			]
+			id: "691F053A65F14987"
+			tasks: [{
+				id: "406A6E41477740AC"
+				type: "item"
+				item: "agape_space:starship_plot"
+			}]
+			rewards: [
+				{
+					id: "51379856E6B38FC7"
+					type: "loot"
+					table_id: 3133982820876343405L
+				}
+				{
+					id: "47EA19A69A4C3B3D"
+					type: "loot"
+					table_id: 5705109811401542117L
+				}
+				{
+					id: "6D000562F9B77D56"
+					type: "loot"
+					table_id: 3279900820427924797L
+				}
+			]
+		}
+		{
+			x: 2.0d
+			y: -12.5d
+			dependencies: [
+				"1A3D9E7ACE519606"
+				"1942F0A66226E746"
+			]
+			id: "11ED1DE44EBB01E0"
+			tasks: [{
+				id: "03988FD0FDC3DBB2"
+				type: "item"
+				item: "agape_space:rocket_ship_box"
+			}]
+			rewards: [
+				{
+					id: "69F375E61D85F925"
+					type: "loot"
+					table_id: 3133982820876343405L
+				}
+				{
+					id: "5DBB7B2A04BAD525"
+					type: "loot"
+					table_id: 5705109811401542117L
+				}
+				{
+					id: "30AF67C1680ECC4E"
+					type: "loot"
+					table_id: 3279900820427924797L
+				}
+			]
+		}
+	]
+}
